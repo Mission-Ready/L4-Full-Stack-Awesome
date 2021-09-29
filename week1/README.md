@@ -40,7 +40,7 @@
 - https://www.youtube.com/watch?v=P6UgYq3J3Qs&ab_channel=KevinPowell 8:30
 
 ### Block, Inline, and Inline-Block explained
-- Block, Inline, and Inline-Block explained 14:18
+- https://www.youtube.com/watch?v=x_i2gga-sYg&ab_channel=KevinPowell 14:18
 
 ### CSS animations in 100 seconds 
 - https://www.youtube.com/watch?v=HZHHBwzmJLk&ab_channel=Fireship 2:04
