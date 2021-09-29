@@ -24,6 +24,12 @@
 
 ## CSS
 
+### CSS crash course
+- https://www.youtube.com/watch?v=yfoY53QXEnI&t=12s&ab_channel=TraversyMedia 1:25:10
+
+### CSS tutorial complete course
+- https://www.youtube.com/watch?v=1Rs2ND1ryYc&t=12s&ab_channel=freeCodeCamp.org 6:18:37
+
 ### CSS Specificity (which types of styles take importance over others)
 - https://www.youtube.com/watch?v=c0kfcP_nD9E&list=PL4-IK0AVhVjP27yZLwW-gkPggRps0CCnP&ab_channel=KevinPowell 13:26
 
@@ -32,3 +38,18 @@
 
 ### Positon relative and Position absolute explained
 - https://www.youtube.com/watch?v=P6UgYq3J3Qs&ab_channel=KevinPowell 8:30
+
+### Block, Inline, and Inline-Block explained
+- Block, Inline, and Inline-Block explained 14:18
+
+### CSS animations in 100 seconds 
+- https://www.youtube.com/watch?v=HZHHBwzmJLk&ab_channel=Fireship 2:04
+
+### CSS animations in 15 minutes
+- https://www.youtube.com/watch?v=YszONjKpgg4&t=611s&ab_channel=WebDevSimplified 15:32
+
+### CSS media queries in 7 minutes
+- https://www.youtube.com/watch?v=yU7jJ3NbPdA&ab_channel=WebDevSimplified 7:10
+
+### Learn CSS media queries with projects
+- https://www.youtube.com/watch?v=aook54SsfhY&ab_channel=freeCodeCamp.org 1:26:13
