@@ -52,4 +52,4 @@
 - https://www.youtube.com/watch?v=yU7jJ3NbPdA&ab_channel=WebDevSimplified 7:10
 
 ### Learn CSS media queries with projects
-- https://www.youtube.com/watch?v=aook54SsfhY&ab_channel=freeCodeCamp.org 1:26:13
+- https://www.youtube.com/watch?v=aook54SsfhY&ab_channel=freeCodeCamp.org 1:26:13 
