@@ -11,7 +11,7 @@
 
 ### HTML starter course
 - https://www.youtube.com/watch?v=pQN-pnXPaVg&ab_channel=freeCodeCamp.org 2:02:31
-![HTML FULL COURSE](https://img.youtube.com/vi/pQN-pnXPaVg/maxresdefault.jpg | width=100)
+![HTML FULL COURSE](https://img.youtube.com/vi/pQN-pnXPaVg/maxresdefault.jpg | width=480)
 <img src="https://img.youtube.com/vi/pQN-pnXPaVg/maxresdefault.jpg">
 
 ### Another good HTML course Part 1 (only part 1 is available on youtube but has most of the basics)
@@ -69,6 +69,3 @@
 - https://www.youtube.com/watch?v=aook54SsfhY&ab_channel=freeCodeCamp.org 1:26:13 
 ![CSS MEDIA QUERIES](https://img.youtube.com/vi/aook54SsfhY/maxresdefault.jpg)
 
-img {
-    width: 100px;
-}
