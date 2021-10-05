@@ -11,7 +11,7 @@
 
 ### HTML starter course
 - https://www.youtube.com/watch?v=pQN-pnXPaVg&ab_channel=freeCodeCamp.org 2:02:31
-![HTML FULL COURSE](https://img.youtube.com/vi/pQN-pnXPaVg/maxresdefault.jpg #<100>x<200>)
+![HTML FULL COURSE](https://img.youtube.com/vi/pQN-pnXPaVg/maxresdefault.jpg)
 
 ### Another good HTML course Part 1 (only part 1 is available on youtube but has most of the basics)
 - https://www.youtube.com/watch?v=qz0aGYrrlhU&ab_channel=ProgrammingwithMosh 1:09:33
@@ -67,3 +67,9 @@
 ### Learn CSS media queries with projects
 - https://www.youtube.com/watch?v=aook54SsfhY&ab_channel=freeCodeCamp.org 1:26:13 
 ![CSS MEDIA QUERIES](https://img.youtube.com/vi/aook54SsfhY/maxresdefault.jpg)
+
+<style type="text/css">
+    img {
+        width: 250px;
+    }
+</style>
