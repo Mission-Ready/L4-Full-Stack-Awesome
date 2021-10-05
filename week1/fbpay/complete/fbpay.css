@@ -1,0 +1,62 @@
+body {
+	font-family: "Tahoma";
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  margin: 50px 100px;
+}
+
+.home {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  background-color: #d8e4ef;
+  margin: 2px 5px;
+  padding: 8px 15px;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #396ee1;
+  color: white;
+}
+
+
+#profile {
+  width: 35%;
+  margin: 30px 100px;
+}
+
+#pic {
+	background-image: url("https://flipweb.org/wp-content/uploads/2019/11/Facebook-Pay.png");
+	width: 65%;
+	height: 300px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+	margin: 0px 100px;
+  }
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  margin: 35px 0px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.chatButton {
+  width: 150px;
+  margin: 30px 0px;
+}
