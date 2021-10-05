@@ -70,6 +70,6 @@
 
 <style type="text/css">
     img {
-        width: 250px;
+        width: 100px;
     }
 </style>
