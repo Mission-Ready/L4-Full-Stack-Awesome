@@ -11,7 +11,7 @@
 
 ### HTML starter course
 - https://www.youtube.com/watch?v=pQN-pnXPaVg&ab_channel=freeCodeCamp.org 2:02:31
-![HTML FULL COURSE](https://img.youtube.com/vi/pQN-pnXPaVg/maxresdefault.jpg)
+![HTML FULL COURSE](https://img.youtube.com/vi/pQN-pnXPaVg/maxresdefault.jpg#<100>x<200>)
 
 ### Another good HTML course Part 1 (only part 1 is available on youtube but has most of the basics)
 - https://www.youtube.com/watch?v=qz0aGYrrlhU&ab_channel=ProgrammingwithMosh 1:09:33
