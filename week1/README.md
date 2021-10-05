@@ -69,7 +69,7 @@
 - https://www.youtube.com/watch?v=aook54SsfhY&ab_channel=freeCodeCamp.org 1:26:13 
 ![CSS MEDIA QUERIES](https://img.youtube.com/vi/aook54SsfhY/maxresdefault.jpg)
 
-<style type="text/css">
+<style>
     img {
         width: 100px;
     }
