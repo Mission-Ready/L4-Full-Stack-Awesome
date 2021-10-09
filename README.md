@@ -1,2 +1,47 @@
-# Mission Ready Stuff
-This repo is a collection of resources and examples to be used by the students of Mission Ready's Level 4 Full Stack Accelerator
+## Hello ✨
+
+Welcome to the Level 4 Tech Career Accelerator. You'll find the code examples used in our workshops, recommended tutorials, and other learning resources in this repository. 
+
+The content is structure week by week. Each week contains markdown files that contain the external resources (videos, tutorials, external code). For example, the code for the examples we've gone through in the first week can be seen under week-1. This repository will be updated as the course progresses.
+
+Happy Coding 🔥🧑‍💻
+
+### Contents
+
+* Week 1
+    * References - [HTML and CSS](week-1/README.md)
+    * Resources - [Workshop Code](week-1)
+* Week 2
+    * References - [Git and Javascript](week-2/README.md)
+    * Resources - [Workshop Code](week-2)
+
+<!-- * Week 3
+    * References - [](week-3/README.md)
+    * Resources - [Workshop Code](week-3)
+* Week 4
+    * References - [](week-4/README.md)
+    * Resources - [Workshop Code](week-4)
+* Week 5
+    * References - [](week-5/README.md)
+    * Resources - [Workshop Code](week-5)
+* Week 6
+    * References - [](week-6/README.md)
+    * Resources - [Workshop Code](week-6)
+* Week 7
+    * References - [](week-7/README.md)
+    * Resources - [Workshop Code](week-7)
+* Week 8
+    * References - [](week-8/README.md)
+    * Resources - [Workshop Code](week-8)
+* Week 9
+    * References - [](week-9/README.md)
+    * Resources - [Workshop Code](week-9)
+* Week 10
+    * References - [](week-10/README.md)
+    * Resources - [Workshop Code](week-10)
+* Week 11
+    * References - [](week-11/README.md)
+    * Resources - [Workshop Code](week-11)
+* Week 12
+    * References - [](week-12/README.md)
+    * Resources - [Workshop Code](week-12) -->
