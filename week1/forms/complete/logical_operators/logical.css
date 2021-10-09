@@ -1,0 +1,19 @@
+/* p and span should both have orange text */
+p, span {
+    color: orange;
+}
+
+/* all p's that are children a div should have a black border */
+div p {
+    border: black 5px solid;
+}
+
+/* only p's that are IMMEDIATE children of a div should have a background of red */
+div > p {
+    background-color: red;
+}
+
+/* input with type=email should have a green background */
+input[type=email] {
+    background-color: green;
+}

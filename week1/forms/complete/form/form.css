@@ -1,0 +1,11 @@
+input {
+    width: 40%;
+}
+
+label {
+    font-family: Tahoma, sans-serif;
+}
+
+form > label {
+    background-color: green
+}
