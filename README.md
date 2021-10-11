@@ -1,8 +1,8 @@
 ## Hello ✨
 
-Welcome to the Level 4 Tech Career Accelerator. You'll find the code examples used in our workshops, recommended tutorials, and other learning resources in this repository. 
+Welcome to the Level 4 Full Stack Accelerator. You'll find the code examples used in our workshops, recommended tutorials, and other learning resources in this repository. 
 
-The content is structure week by week. Each week contains markdown files that contain the external resources (videos, tutorials, external code). For example, the code for the examples we've gone through in the first week can be seen under week-1. This repository will be updated as the course progresses.
+The content is structured week by week. Each week contains markdown files that contain the external resources (videos, tutorials, external code). For example, the code for the examples we've gone through in the first week can be seen under week-1. This repository will be updated as the course progresses.
 
 Happy Coding 🔥🧑‍💻
 

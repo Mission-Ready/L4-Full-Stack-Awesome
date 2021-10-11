@@ -34,7 +34,7 @@
 <img src="http://i3.ytimg.com/vi/c-I5S_zTwAc/maxresdefault.jpg" width=480>
 
 ### Getting started with JavaScript (part 1)
-- https://www.youtube.com/watch?v=2nZiB1JItbY&ab_channel=DevEd 5:14
+- https://www.youtube.com/watch?v=2nZiB1JItbY&ab_channel=DevEd 10:14
 <img src="http://i3.ytimg.com/vi/2nZiB1JItbY/maxresdefault.jpg" width=480>
 
 
