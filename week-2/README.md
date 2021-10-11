@@ -14,13 +14,20 @@
   - [3.3. JavaScript overview in 5 minutes](#33-javascript-overview-in-5-minutes)
   - [3.4. Getting started with JavaScript (part 1)](#34-getting-started-with-javascript-part-1)
 
-## 1. Command Line | Terminal basics 
+## 1. Command Line | Terminal basics
+
 ### 1.1. Why Do Command Lines Still Exist?
+
 - https://www.youtube.com/watch?v=Q1dwzi5DKio 4:46
+
   <img src="http://i3.ytimg.com/vi/Q1dwzi5DKio/maxresdefault.jpg" width=480>
+
 ### 1.2. How to use the Command Line | Terminal Basics for Beginners
+
 - https://www.youtube.com/watch?v=5XgBd6rjuDQ 13:50
+
   <img src="http://i3.ytimg.com/vi/5XgBd6rjuDQ/maxresdefault.jpg" width=480>
+
 ## 2. Git
 
 ### 2.1. Git explained in 100 seconds
