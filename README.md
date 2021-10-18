@@ -12,12 +12,13 @@ Happy Coding 🔥🧑‍💻
     * References - [HTML and CSS](week-1/README.md)
     * Resources - [Workshop Code](week-1)
 * Week 2
-    * References - [Git and Javascript](week-2/README.md)
+    * References - [Git and JavaScript](week-2/README.md)
+    * Git commands - [A summary of git commands](week-2\git-commands.md)
     * Resources - [Workshop Code](week-2)
-
-<!-- * Week 3
-    * References - [](week-3/README.md)
+ * Week 3
+    * References - [More on JavaScript](week-3/README.md)
     * Resources - [Workshop Code](week-3)
+<!--
 * Week 4
     * References - [](week-4/README.md)
     * Resources - [Workshop Code](week-4)
