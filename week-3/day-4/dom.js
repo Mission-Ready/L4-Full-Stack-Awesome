@@ -1,49 +1,55 @@
+// color change example
 let currentColour = 0;
-function changeBackground() {
-    let colourArray = ['white', 'blue', 'red', 'green', 'yellow', 'orange'];
-    
-    currentColour++;
-    document.body.style.background = colourArray[currentColour];
-}
 
-const myElement = document.querySelectorAll('.myClass');
-console.log(myElement)
-
-myElement[0].style.fontSize = '14px';
-myElement[0].innerHTML = '<a>World</a>';
-myElement[0].textContent = 'Goodbye World';
-
-let count = 0;
-function addCount() {
-    const myCounter = document.getElementById('counter-number');
-
-    //safer way
-    myCounter.textContent = count++;
+function changeColour() {
+    let colourArray = ['white', 'blue', 'red', 'green', 'yellow', 'orange'];
     
-    //cleaner way
-    // myCounter.textContent++;
+    if (currentColour === 5) {
+        currentColour = 0;
+    } else {
+        currentColour++;
+    }
+    document.body.style.background = colourArray[currentColour];
 }
 
+// using getElementById()
+// let helloWorldHead = document.getElementById('helloWorldHeader');
+// helloWorldHead.style.fontSize = '10px';
+// helloWorldHead.textContent = 'Goodbye World';
 
+// using querySelector() 
+let helloWorldHead = document.querySelector('#helloWorldHeader');
+helloWorldHead.style.fontSize = '10px';
+helloWorldHead.textContent = 'Goodbye World';
 
+//using EventListener()
+let someElement = document.getElementById('eventListen');
+someElement.addEventListener('mouseover', (e) => e.target.style.background = 'blue');
 
-function changeColour(event) {
-    console.log(event.target)
+someElement.addEventListener('mouseout', (e) => e.target.style.background = 'white');
 
-    event.target.style.background = 'blue';
+// counter example
+function addCount() {
+    const counter = document.querySelector('#counter-number')
+    counter.textContent++;
 }
 
-let listener1 = document.getElementById('eventListen')
-let listener2 = document.getElementById('anotherListener')
+// word count exercise
+const wordCount = document.getElementById('wordCount')
+function logValue(e) {
+    wordCount.textContent = " word count: " + e.target.value.length;
+}
 
-listener1.addEventListener('mouseover', changeColour);
-listener1.addEventListener('mouseout', (e) => e.target.style.background = 'white');
+const inputElement = document.querySelector('#inputExample');
+inputElement.addEventListener('input', logValue);
 
-listener2.addEventListener('mouseover', changeColour);
-listener2.addEventListener('mouseout', (e) => e.target.style.background = 'white');
+// sum numbers exercise
+const num1 = document.getElementById('num1');
+const num2 = document.getElementById('num2');
+const result = document.getElementById('result');
 
-const inputElement = document.getElementById('firstInputField')
-inputElement.addEventListener('input', (e) => {
-    console.log(e.target.value)
-    console.log('something else')
-})
+function sumNumbers() {
+    result.textContent = 'result: ' + num1.value + ' + ' + num2.value + ' = ' + (parseInt(num1.value) + parseInt(num2.value));
+    num1.value = '';
+    num2.value = '';
+}
