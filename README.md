@@ -13,7 +13,7 @@ Happy Coding 🔥🧑‍💻
     * Resources - [Workshop Code](week-1)
 * Week 2
     * References - [Git and JavaScript](week-2/README.md)
-    * Git commands - [A summary of git commands](week-2\git-commands.md)
+    * Git commands - [A summary of git commands](week-2/git-commands.md)
     * Resources - [Workshop Code](week-2)
  * Week 3
     * References - [More on JavaScript](week-3/README.md)
