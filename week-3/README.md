@@ -1,4 +1,4 @@
-# Week 2 - JavaScript Functions, Datatypes, Variable scope and Regex <!-- omit in toc -->
+# Week 3 - JavaScript Functions, Datatypes, Variable scope and Regex <!-- omit in toc -->
 
 - [1. Functions](#1-functions)
   - [1.1. JavaScript Functions](#11-javascript-functions)
