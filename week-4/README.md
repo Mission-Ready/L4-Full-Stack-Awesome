@@ -20,7 +20,8 @@
   - [4.1. Learn JSON in 10 Minutes](#41-learn-json-in-10-minutes)
   - [4.2. JSON Crash Course](#42-json-crash-course)
   - [4.3. AJAX - Beau teaches JavaScript](#43-ajax---beau-teaches-javascript)
-  - [4.4. AJAX Crash Course (Vanilla JavaScript)](#44-ajax-crash-course-vanilla-javascript)
+  - [4.4. Fetch API Introduction](#44-fetch-api-introduction)
+  - [4.5. Learn Fetch API In 6 Minutes](#45-learn-fetch-api-in-6-minutes)
 
 ## 1. Array Functions
 
@@ -117,7 +118,12 @@
 - https://www.youtube.com/watch?v=tHRNuBf_8xg&ab_channel=freeCodeCamp.org 6:13
   <img src="https://img.youtube.com/vi/tHRNuBf_8xg/maxresdefault.jpg" width=480>
 
-### 4.4. AJAX Crash Course (Vanilla JavaScript)
+### 4.4. Fetch API Introduction
 
-- https://www.youtube.com/watch?v=82hnvUYY6QA&ab_channel=TraversyMedia 1:09:42
-  <img src="https://img.youtube.com/vi/82hnvUYY6QA/maxresdefault.jpg" width=480>
+- https://www.youtube.com/watch?v=Oive66jrwBs&ab_channel=TraversyMedia 30:53
+  <img src="https://img.youtube.com/vi/Oive66jrwBs/maxresdefault.jpg" width=480>
+
+### 4.5. Learn Fetch API In 6 Minutes
+
+- https://www.youtube.com/watch?v=cuEtnrL9-H0&ab_channel=WebDevSimplified 6:34
+  <img src="https://img.youtube.com/vi/cuEtnrL9-H0/maxresdefault.jpg" width=480>
