@@ -228,6 +228,6 @@ const companyA = new CarSales();
 console.log(companyA.car);
 companyA.car = 'Tesla Model X';
 console.log(companyA.car);
-console.log(rentACar());
-console.log(returnCar());
+console.log(companyA.rentACar());
+console.log(companyA.returnCar());
 console.log(companyA.car);
