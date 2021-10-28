@@ -31,4 +31,6 @@ const person = {
 
 // person.greetings - add a () to run the function
 person.greetings();
+person.firstName;
+person['firstName'];
 
