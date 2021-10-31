@@ -19,10 +19,10 @@ Happy Coding 🔥🧑‍💻
     * References - [More on JavaScript](week-3/README.md)
     * Resources - [Workshop Code](week-3)
 * Week 4
-    * References - [](week-4/README.md)
+    * References - [More on JavaScript part 2](week-4/README.md)
     * Resources - [Workshop Code](week-4)
 * Week 5
-    * References - [](week-5/README.md)
+    * References - [Node.js](week-5/README.md)
     * Resources - [Workshop Code](week-5)
 <!--
 * Week 6
