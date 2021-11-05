@@ -19,7 +19,7 @@ function sendLogin(e) {
     .then(res => {
         if (res.status === 200) {
             loginResultDiv.innerHTML = '<span style="color: green">Login Successful</span>'
-        } else if (res.status === 400) {
+        } else if (res.status === 404) {
             loginResultDiv.innerHTML = '<span style="color: red">Login Failed</span>'
         }
     })

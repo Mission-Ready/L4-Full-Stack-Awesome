@@ -22,7 +22,6 @@ app.use(express.json())
 // allows requests to come from anywhere
 app.use(cors())
 
-
 // mock db of users
 let users = [{email: 'jadeldik@gmail.com', password: 'pass'}]; 
 
@@ -36,7 +35,7 @@ app.post('/login', (req, res) => {
         }
     }
     // if the loop completes without triggering the if statement then our user is not in the list so return a 400 error
-    return res.status(400).send('email or password is incorrect')
+    return res.status(404).send('email or password is incorrect')
 })
 
 // endpoint for login request with fetch api
@@ -46,7 +45,7 @@ app.post('/loginWithFetch', (req, res) => {
             return res.sendStatus(200)
         }
     }
-    res.sendStatus(400)
+    res.sendStatus(404)
 })
 
 app.listen(4000)
