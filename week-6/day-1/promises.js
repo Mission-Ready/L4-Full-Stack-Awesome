@@ -33,74 +33,74 @@ fakeFetch('')
 .then(res => console.log(res))
 .catch(err => console.log(err))
 
-// // Exercise 1 answer
-// function sayHello() {
-//     return new Promise(resolve => {
-//         setTimeout(() => {
-//             resolve('hello world')
-//         }, 3000)
-//     })
-// }
-// sayHello()
-// .then(res => console.log(res))
+// Exercise 1 answer
+function sayHello() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            resolve('hello world')
+        }, 3000)
+    })
+}
+sayHello()
+.then(res => console.log(res))
 
-// // Excercise 2 answer
-// function nameTest(name) {
-//     return (
-//         new Promise((resolve, reject) => {
-//             if (name === 'jad') {
-//                 return resolve('Yes')
-//             } else {
-//                 return reject('No')
-//             }
-//         })
-//     )
-// }
-// nameTest('jad')
-// .then(res => console.log(res))
-// .catch(err => console.log(err))
+// Excercise 2 answer
+function nameTest(name) {
+    return (
+        new Promise((resolve, reject) => {
+            if (name === 'jad') {
+                return resolve('Yes')
+            } else {
+                return reject('No')
+            }
+        })
+    )
+}
+nameTest('jad')
+.then(res => console.log(res))
+.catch(err => console.log(err))
 
-// // async await example
-// async function asyncFetch() {
-//     const fetchResult = await fetch('https://jsonplaceholder.typicode.com/users')
-//     const fetchJson = await fetchResult.json()
-//     console.log(fetchJson)
-// }
-// asyncFetch()
+// async await example
+async function asyncFetch() {
+    const fetchResult = await fetch('https://jsonplaceholder.typicode.com/users')
+    const fetchJson = await fetchResult.json()
+    console.log(fetchJson)
+}
+asyncFetch()
 
-// // async await example arrow func
-// const asyncFetchArrow = async () => {
-//     const fetchResult = await fetch('https://jsonplaceholder.typicode.com/users')
-//     const fetchJson = await fetchResult.json()
-//     console.log(fetchJson)
-// }
-// asyncFetchArrow()
+// async await example arrow func
+const asyncFetchArrow = async () => {
+    const fetchResult = await fetch('https://jsonplaceholder.typicode.com/users')
+    const fetchJson = await fetchResult.json()
+    console.log(fetchJson)
+}
+asyncFetchArrow()
 
-// // Exercise 3 answer
-// async function callSayHello() {
-//     const hello = await sayHello()
-//     console.log(hello)
-// }
-// callSayHello()
+// Exercise 3 answer
+async function callSayHello() {
+    const hello = await sayHello()
+    console.log(hello)
+}
+callSayHello()
 
-// // try catch example
-// async function callFakeFetch() {
-//     try {
-//         const myFetch = await fakeFetch('http://url.com')
-//         console.log(myFetch)
-//     } catch (err) {
-//         console.log(err)
-//     }
-// }
-// callFakeFetch()
+// try catch example
+async function callFakeFetch() {
+    try {
+        const myFetch = await fakeFetch('http://url.com')
+        console.log(myFetch)
+    } catch (err) {
+        console.log(err)
+    }
+}
+callFakeFetch()
 
-// // Exercise 4 answer
-// async function callNameTest() {
-//     try {
-//         const nameTestRes = await nameTest('jad')
-//         console.log(nameTestRes)
-//     } catch (err) {
-//         console.log(err)
-//     }
-// }
-// callNameTest()
+// Exercise 4 answer
+async function callNameTest() {
+    try {
+        const nameTestRes = await nameTest('jad')
+        console.log(nameTestRes)
+    } catch (err) {
+        console.log(err)
+    }
+}
+callNameTest()
