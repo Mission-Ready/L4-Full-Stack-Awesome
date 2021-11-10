@@ -29,7 +29,7 @@ app.delete('/', (req, res) => {
 
 app.patch('/', (req, res) => {
   console.log('PATCH called');
-  res.send('Hello PATCH !');
+  res.send('Hello PATCH ! Today is great!');
 });
 
-app.listen(3000, () => console.log('Server ready'));
+app.listen(4000, () => console.log('Server ready'));

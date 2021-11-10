@@ -21,7 +21,7 @@ app.get('/user/sendString', (req, res) => {
   // Send sends a simple string as the response and close the connection
   //  - Sets Content-Type header to application/json if you pass in an object/array.
   //  - Sets the Content-length response header
-  res.send({ firstName: 'Sebin', lastName: 'Benjamin' });
+  res.send({ firstName: 'John', lastName: 'Doe' });
 });
 
 app.get('/user/empty', (req, res) => {
@@ -30,4 +30,4 @@ app.get('/user/empty', (req, res) => {
   res.end();
 });
 
-app.listen(3000, () => console.log('Server ready'));
+app.listen(4000, () => console.log('Server ready'));

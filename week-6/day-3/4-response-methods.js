@@ -23,4 +23,4 @@ app.get('/user/type/json', (req, res) => {
   res.end('Hello World');
 });
 
-app.listen(3000, () => console.log('Server ready'));
+app.listen(4000, () => console.log('Server ready'));

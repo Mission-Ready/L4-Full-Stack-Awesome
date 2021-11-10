@@ -1,16 +1,17 @@
 const express = require('express');
-const cars = require('./modular-routes-10.js');
+const cars = require('./modular-routes.js');
+
 // Instantiate an application by calling the express() method
 const app = express();
 
-// Simple routing - get
+// I - Simple routing - get
 // app.get('/', (req, res) => {
 //   res.send('Hello World!');
 // });
 
-// Chaining - route method
+// II - Chaining - route method
 // app
-//   .route('/car')
+// app.route('/car')
 //   .get((req, res) => {
 //     res.send('Get a car!');
 //   })
@@ -28,7 +29,7 @@ const app = express();
 app.use('/car', cars);
 
 const hostname = '127.0.0.1';
-const port = 3000;
+const port = 4000;
 app.listen(port, () =>
   console.log(`Server running at http://${hostname}:${port}/`)
 );

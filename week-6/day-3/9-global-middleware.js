@@ -5,7 +5,7 @@ const app = express();
 
 // Global Middleware 1 - executes someCommonTaskToBeExecuted
 app.use((req, res, next) => {
-  console.log(req.method, req.url, 'called at', new Date().toISOString());
+  console.log(req.method, req.url, 'called at', new Date().toLocaleTimeString());
   next();
 });
 
@@ -26,7 +26,7 @@ app.get('/car', (req, res) => {
 });
 
 const hostname = '127.0.0.1';
-const port = 3000;
+const port = 4000;
 app.listen(port, () =>
   console.log(`Server running at http://${hostname}:${port}/`)
 );
