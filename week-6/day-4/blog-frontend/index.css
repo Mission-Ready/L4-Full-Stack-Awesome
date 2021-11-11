@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 30px;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.bodyContainer {
+    margin: 1rem;
+    max-width: 400px;
+}
+
+.bodyHeader {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postDisplay {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    max-width: 400px;
+    padding: 1rem;
+    background-image: linear-gradient(90deg, red 5px, white 5px);
+    margin-bottom: 1rem;
+}
+
+.postDisplay:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.formStyles {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+#deletePost:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.postTitle {
+    width: 100%
+}
+
+textarea {
+    font-family: sans-serif;
+    width: 100%;
+    resize: vertical;
+}
