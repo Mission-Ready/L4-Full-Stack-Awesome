@@ -1,4 +1,4 @@
-## Hello ✨
+## Hello World !✨
 
 Welcome to the Level 4 Full Stack Accelerator. You'll find the code examples used in our workshops, recommended tutorials, and other learning resources in this repository. 
 
