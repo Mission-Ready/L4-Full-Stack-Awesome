@@ -11,7 +11,7 @@ function sendLogin(e) {
     const email = emailInput.value
     const password = passwordInput.value
 
-    fetch('http://localhost:4000/login', {
+    fetch('http://localhost:4000/loginUnsafe', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({email: email, password: password})
