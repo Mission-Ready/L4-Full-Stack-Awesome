@@ -11,8 +11,10 @@ function App() {
     setTasksArray([...tasksArray, task])
   }
 
-  const deleteTaskFromArray = (taskToDelete) => {
-    setTasksArray(tasksArray.filter(task => task !== taskToDelete))
+  const deleteTaskFromArray = (index) => {
+    const temp = [...tasksArray]
+    temp.splice(index, 1)
+    setTasksArray(temp)
   }
 
   return (
