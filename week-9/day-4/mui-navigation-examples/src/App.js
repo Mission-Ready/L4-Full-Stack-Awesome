@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import MuiBottomNav from './components/MuiBottomNav'
 import MuiDrawer from './components/MuiDrawer';
