@@ -22,24 +22,24 @@ Happy Coding 🔥🧑‍💻
     * References - [More on JavaScript part 2](week-4/README.md)
     * Resources - [Workshop Code](week-4)
 * Week 5
-    * References - [Node.js](week-5/README.md)
+    * References - [React](week-5/README.md)
     * Resources - [Workshop Code](week-5)
 * Week 6
-    * References - [More NodeJS](week-6/README.md)
+    * References - [More React](week-6/README.md)
     * Resources - [Workshop Code](week-6)
 * Week 7
-    * References - [Databases and MySQL](week-7/README.md)
+    * References - [Material UI/Redux](week-7/README.md)
     * Resources - [Workshop Code](week-7)
 * Week 8
-    * References - [](week-8/README.md)
+    * References - [Node.js](week-8/README.md)
     * Resources - [Workshop Code](week-8)
-<!--
 * Week 9
-    * References - [](week-9/README.md)
+    * References - [More NodeJS](week-9/README.md)
     * Resources - [Workshop Code](week-9)
 * Week 10
-    * References - [](week-10/README.md)
+    * References - [Databases and MySQL](week-10/README.md)
     * Resources - [Workshop Code](week-10)
+<!--
 * Week 11
     * References - [](week-11/README.md)
     * Resources - [Workshop Code](week-11)
