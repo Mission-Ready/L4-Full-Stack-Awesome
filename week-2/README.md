@@ -13,6 +13,9 @@
   - [3.2. JavaScript full course for beginners](#32-javascript-full-course-for-beginners)
   - [3.3. JavaScript overview in 5 minutes](#33-javascript-overview-in-5-minutes)
   - [3.4. Getting started with JavaScript (part 1)](#34-getting-started-with-javascript-part-1)
+- [4. Challenges](#4-challenges)
+  - [4.1 Javascript Challenges](#41-javascript-challenges)
+  - [4.2 Git](#42-git)
 
 ## 1. Command Line | Terminal basics
 
@@ -71,3 +74,20 @@
 
 - https://www.youtube.com/watch?v=2nZiB1JItbY&ab_channel=DevEd 10:14
   <img src="http://i3.ytimg.com/vi/2nZiB1JItbY/maxresdefault.jpg" width=480>
+
+## 4. Challenges
+### 4.1 Javascript Challenges
+- https://edabit.com/challenges/javascript
+- https://www.jschallenger.com/
+- FreeCodeCamp - Basic JavaScript - https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript
+- FreeCodeCamp - ES6 - https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#es6
+- 30 days of JavaScript - https://javascript30.com/
+
+### 4.2 Git
+- A game to help learn git branching - https://learngitbranching.js.org/
+- A simple visual git guide - http://rogerdudler.github.io/git-guide/ 
+- OHMYGIT - An open source game about learning Git -  https://ohmygit.org/
+<img src="https://ohmygit.org/assets/images/oh-my-git.png" width=240>
+
+- Git Katas - A collection of Git exercises - https://github.com/eficode-academy/git-katas
+- Advanced Git - https://profy.dev/project/github-minesweeper#start-project
