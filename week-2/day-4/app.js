@@ -179,7 +179,8 @@ for (let i = 0; i < string.length; i++) {
 string = "i! a!m! !a! s!t!r!i!n!g";
 
 for (let i = 0; i < string.length; i++) {
-  if (string[i] !== "!") {
-    console.log(string[i]);
+  if (string[i] === "!") {
+    continue;
   }
+  console.log(string[i]);
 }
