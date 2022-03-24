@@ -117,6 +117,11 @@ FROM
     city
 WHERE
     CountryCode = 'NZL';
+
+SELECT 
+    name, continent, region, ROUND(LifeExpectancy, 0)
+FROM
+    country;
     
 -- Current data and time could be useful for comparision, eg: returnning purchases from last friday to today    
 -- https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html
