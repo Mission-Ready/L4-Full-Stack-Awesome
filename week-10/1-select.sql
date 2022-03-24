@@ -90,6 +90,11 @@ WHERE
     Name LIKE 'A_________%'; 
     
 SELECT DISTINCT
+    Continent
+FROM
+    Country;
+    
+SELECT DISTINCT
     district
 FROM
     city;
@@ -98,4 +103,3 @@ SELECT DISTINCT
     continent, HeadOfState
 FROM
     country;
-
