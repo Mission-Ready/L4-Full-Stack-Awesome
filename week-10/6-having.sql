@@ -12,10 +12,11 @@ FROM
     city
 GROUP BY district;
 
+-- Population of the city with the smallest population in each district
+-- having a an average population greater than 90000
 SELECT 
-    district,
-    MIN(population) 'City with the smallest population'
+District, MIN(Population) 'Population of the city'
 FROM
-    city
-GROUP BY district
-HAVING AVG(population) < 500000;
+    world.city
+GROUP BY District
+HAVING AVG(Population) > 90000;

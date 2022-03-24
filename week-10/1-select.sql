@@ -6,6 +6,13 @@ FROM
     city;
     
 SELECT 
+    Name, IndepYear, GovernmentForm
+FROM
+    mhq.country
+WHERE
+    GovernmentForm IN ('Republic');
+
+SELECT 
     *
 FROM
     world.country   
