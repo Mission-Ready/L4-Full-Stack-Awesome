@@ -36,6 +36,35 @@ INSERT INTO `mhq`.`MHQStudentA`
 VALUES
 (11, 'Sebin','Benjamin', 27);
 
+
+-- UNIQUE constraint ensures that all values in the column are different
+CREATE TABLE IF NOT EXISTS MHQStudentA (
+    ID 			INT 			PRIMARY KEY,
+    LastName 	VARCHAR(255) 	NOT NULL,
+    FirstName 	VARCHAR(255),
+    Age			INT 			,
+    Email 		VARCHAR(255)	UNIQUE
+);
+
+-- Since the Email column has a UNIQUE constrain applied, I get an error when inserting
+-- a second row with the same email id
+-- Error Code: 1062. Duplicate entry 'sebin@email.com' for key 'mhqstudenta.Email'
+ INSERT INTO `learning_sql`.`mhqstudenta`
+(`ID`,
+`LastName`,
+`FirstName`,
+`Age`,
+`Email`)
+VALUES
+(
+2,
+'Doe',
+'John',
+25,
+'john@email.com'
+);
+
+
 -- CHECK constraint is used to limit the value range that can be placed in a column
 CREATE TABLE IF NOT EXISTS MHQStudentB (
     ID 			INT NOT NULL PRIMARY KEY,

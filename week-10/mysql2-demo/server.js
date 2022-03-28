@@ -5,8 +5,8 @@ const dotenv = require('dotenv').config();
 const app = express();
 
 const connection = mysql.createConnection({
-  host: 'localhost',
-  database: 'world',
+  host: process.env.HOST,
+  database: process.env.DATABASE,
   user: process.env.USER,
   password: process.env.PASSWORD,
 });
@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
   console.log('Received a GET request to /');
 
   // Run the SQL query, when you get a request to /
-  connection.query(`SELECT * FROM WORLD.CITY LIMIT 5;`, (error, result) => {
+  connection.query(`SELECT * FROM WORLD.CITY LIMIT 2;`, (error, result) => {
     if (error) {
       console.log('Error', error);
       res.send("You' got an error ! " + error.code);
@@ -47,6 +47,6 @@ app.get('/city/:cityName', (req, res) => {
   );
 });
 
-const PORT = process.env.PORT;
+const PORT = process.env.EXPRESS_PORT;
 console.log('Server running at port', PORT);
 app.listen(PORT);

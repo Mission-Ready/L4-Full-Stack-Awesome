@@ -59,8 +59,9 @@ SELECT
     *
 FROM
     COUNTRY;
+
 -- Capitalize the values in the Name field. 
 UPDATE `mhq`.`country` 
 SET 
     `Name` = UPPER(Name);
-    
+
