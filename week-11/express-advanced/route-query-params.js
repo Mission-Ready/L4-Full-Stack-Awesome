@@ -8,11 +8,11 @@
  *
  * 2. Query Parameters
  *    localhost:3000/teacher?id=52&name=sebin
- *    Everything after the ? is the URL params.
+ *    Everything after the ? is the Query params.
  *    Use '&' to separate two different values
  *    id=52
  *    name=sebin
- *    const {name, id} = req.query; *    
+ *    const {name, id} = req.query;    
  * 
  *  3. Body Params
  *    More secure way to transmit sensitive info.

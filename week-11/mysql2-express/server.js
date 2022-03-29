@@ -1,8 +1,10 @@
 const express = require('express');
 const mysql = require('mysql2');
+const cors = require('cors');
 const dotenv = require('dotenv').config();
 
 const app = express();
+app.use(cors()); // Allow everyone to call the APIs
 app.use(express.json()); // Middleware added to process the json body params
 
 const connection = mysql.createConnection({
@@ -27,18 +29,14 @@ const connection = mysql.createConnection({
 
 app.post('/addUser', (req, res) => {
   console.log('Received a POST request to /addUser');
-  
+
   const { email, password } = req.body;
   console.log(email, password);
 
   // Run the SQL query, when you get a request to /
   connection.query(
-    `INSERT INTO user
-    (Email,
-     Password)
-    VALUES
-    ('${email}', '${password}');
-  `,
+    `INSERT INTO user (Email, Password) VALUES (?, ?);`,
+    [email, password],
     (error, result) => {
       if (error) {
         console.log('Error', error);

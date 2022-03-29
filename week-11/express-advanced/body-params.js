@@ -7,9 +7,12 @@
  */
 
 const express = require('express');
+const cors = require('cors');
 const app = express();
 
+
 app.use(express.json()); // Middleware added to process the json body params
+app.use(cors())
 
 app.post('/student', (req, res) => {
   console.log('Received a GET request to /student');
