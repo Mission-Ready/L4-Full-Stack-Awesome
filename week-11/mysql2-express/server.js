@@ -20,7 +20,7 @@ const connection = mysql.createConnection({
     localhost:5000/deleteUser/:userID (delete)
     The addUser endpoint needs to accept a post request that contains an object with the email and password properties of the user we are trying to add. 
 
-    CREATE TABLE User (
+    CREATE TABLE user (
       ID 			  INT 			PRIMARY KEY AUTO_INCREMENT,
       Email 		VARCHAR(255)	NOT NULL unique, 
       Password 	VARCHAR(255) 	NOT NULL
