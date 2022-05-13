@@ -1,4 +1,5 @@
 const express = require('express');
+const morgan = require('morgan');
 
 const { carRouter } = require('./car.routes');
 const { boatRouter } = require('./boat.routes');
@@ -7,6 +8,8 @@ const { truckRouter } = require('./truck.routes');
 
 const app = express();
 app.use(express.json());
+
+app.use(morgan('common'));
 
 // Adds the car routes to app
 app.use('/car', carRouter);
