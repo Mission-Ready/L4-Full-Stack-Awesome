@@ -14,4 +14,3 @@ SELECT
     IndepYear Year_of_Indepndence, SurfaceArea Area
 FROM
     country;
-    

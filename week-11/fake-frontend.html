@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+    function callLoginAPI() {
+      const email = document.getElementById('userEmail').value;
+      const password = document.getElementById('userPassword').value;
+
+      const body = {
+        email: email,
+        password: password,
+      };
+
+      const requestOptions = {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(body),
+      };
+
+      fetch('http://localhost:5000/addUser', requestOptions).then((response) => response.text())
+        .then((result) => alert(`You've successfully added a new user`))
+        .catch((error) => console.log('error', error));
+    }
+  </script>
+</head>
+
+<body>
+  <h1>Signup Page</h1>
+  <div>
+    Email
+    <input type="email" id="userEmail">
+  </div>
+  <div>
+    Password
+    <input type="password" id="userPassword">
+  </div>
+  <div>
+    <button onclick="callLoginAPI()">Login</button>
+  </div>
+</body>
+
+</html>

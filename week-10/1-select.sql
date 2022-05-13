@@ -6,6 +6,13 @@ FROM
     city;
     
 SELECT 
+    Name, IndepYear, GovernmentForm
+FROM
+    mhq.country
+WHERE
+    GovernmentForm IN ('Republic');
+
+SELECT 
     *
 FROM
     world.country   
@@ -90,6 +97,11 @@ WHERE
     Name LIKE 'A_________%'; 
     
 SELECT DISTINCT
+    Continent
+FROM
+    Country;
+    
+SELECT DISTINCT
     district
 FROM
     city;
@@ -98,4 +110,3 @@ SELECT DISTINCT
     continent, HeadOfState
 FROM
     country;
-

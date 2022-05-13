@@ -1,0 +1,13 @@
+.numButton {
+  padding: 50px;
+  background-color: #cdcd56;
+  border-radius: 50% 50%;
+  display: inline-block;
+  font-size: 60px;
+  margin: 4px 2px;
+  text-align: center;
+}
+
+.numButtonGreen {
+  background-color: green;
+}
