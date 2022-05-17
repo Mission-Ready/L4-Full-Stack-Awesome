@@ -140,13 +140,25 @@ while (x < 10) {
   x++;
 }
 
-// A "break" will break out of the loop
+// Exercise 4
+// While loops
+let x = 20;
+
+while (x >= 10) {
+  console.log("The loop is running", x);
+  x--;
+}
+
+console.log('The loop has ended');
+
+// A "break" will break out of the loop, abandon remaining iterations AND the program continues.
 for (let i = 0; i <= 5; i++) {
   if (i === 3) {
     break;
   }
   console.log(i);
 }
+console.log('The loop has ended');
 
 // A "continue" will skip an iteration of the loop
 for (let i = 0; i <= 5; i++) {
@@ -156,7 +168,9 @@ for (let i = 0; i <= 5; i++) {
   console.log(i);
 }
 
-// Exercise 4
+// Exercise 5
+
+// Answer 1 - simple
 let string = "A string!";
 
 for (let i = 0; i < string.length; i++) {
@@ -175,12 +189,34 @@ for (let i = 0; i < string.length; i++) {
   }
 }
 
-// Exercise 5
+// Answer 2 - prints the symbol as well
+string = "A str@ing!ask hfsdj545";
+
+for (let i = 0; i < string.length; i++) {
+  if (
+    string[i] === "!" ||
+    string[i] === "@" ||
+    string[i] === "#" ||
+    string[i] === "$" ||
+    string[i] === "%" ||
+    string[i] === "^" ||
+    string[i] === "&" ||
+    string[i] === "*"
+  ) {
+    console.log("Error: a symbol was found in the string.", "Found a ", string[i]);
+    break;
+  }
+    console.log('Looking at the following letter now', i);
+} 
+
+
+// Exercise 6
 string = "i! a!m! !a! s!t!r!i!n!g";
 
 for (let i = 0; i < string.length; i++) {
   if (string[i] === "!") {
     continue;
   }
+
   console.log(string[i]);
 }

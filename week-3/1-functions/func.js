@@ -8,10 +8,16 @@ function myFirstFunction() {
 function stringCombine(str1, str2) {
     return(str1 + ' ' + str2);
 }
-
 console.log(stringCombine());
 
 myFirstFunction(); // This is a function call
+
+function greet(userName) {
+    console.log('Greetings', userName);
+}
+greet('Sebin');
+greet('Tom');
+greet('Ray');
 
 // function with params
 function FuncWithParams(num1, num2) {
@@ -72,3 +78,13 @@ function emptyString(string) {
 }
 
 console.log(emptyString('dsdfsdf'))
+
+
+// Exercise 1
+
+function addString(param1, param2) {
+    console.log(param1, param2);
+}
+
+addString('Hello', 'World');
+addString('Today is', 'Monday');
