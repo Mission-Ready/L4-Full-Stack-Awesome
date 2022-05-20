@@ -31,26 +31,10 @@ console.log('Half of 23 is ' + result);
 function getTimeInSeconds(timeInMinutes) {
   const timeInSeconds = timeInMinutes * 60;
   return timeInSeconds;
+  // return timeInMinutes * 60;
 }
 
 const userInputMinutes = prompt('Enter the minutes', '5');
 const userInputMinutesNum = parseInt(userInputMinutes);
 const timeInSeconds = getTimeInSeconds(userInputMinutesNum);
 alert(userInputMinutes + ' minutes is ' + timeInSeconds + ' seconds');
-
-
-
-
-
-
-
-
-
-
-
-
-let person = {  
-  firstName : "Sebin", 
-  lastName: "Benjamin" 
-};
-console.log(person.firstName + ' ' + person.lastName);

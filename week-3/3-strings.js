@@ -65,29 +65,6 @@ const userInput = prompt('Please enter a sentence');
 const messageToUser = messageCaseConverter(userInput);
 alert(messageToUser);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
     Step 1 : Create a string and assign it to a variable
     Step 2 : Find the length of the variable
