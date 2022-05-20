@@ -126,20 +126,57 @@ console.log(sum, myFavNumbers);
 /* 
   Exercise - 6 
   =============
-  Create an array of your favorite fruits and Console log the array
-/*
+  Create an array of your favorite fruits and Console log the array.
 
+*/
+
+const food = ['veggies', 'popcorn', 'chocolate', 'apples', 'oranges'];
+for (i = 0; i < goodFood.length + 2; i++) {
+  console.log(goodFood[i], i);
+}
 
 /* 
   Exercise - 7 
   =============
   Create an array of numbers, say 5 to 10.
   Find the average of the numbers and console log the average.
-/*
+*/
+const numbers = [5, 6, 7, 8, 9, 10];
+let sum = 0;
+for (let index = 0; index < numbers.length; index++) {
+  const num = numbers[index];
+  sum = sum + num;
+}
+const average = sum / numbers.length;
+console.log('The average of numbers', numbers, 'is', average); // 7.5
 
+/**
+    (5 + 6 + 7 + 8 + 9 + 10) / 6
+    7.5
 
-/*
-    Exercise - 8
+    5/6 + 6/6 + 7/6 + 8/6 + 9/6 + 10/6
+    7.5 
+ */
+
+numbers = [5, 6, 7, 8, 9, 10];
+numbers.push(11);
+
+const arrayOfObjects = [
+  {
+    name: 'Sebin',
+    favColor: 'Grey',
+  },
+  {
+    name: 'Jane',
+    favColor: 'White',
+  },
+];
+
+arrayOfObjects[0];
+arrayOfObjects[1].name;
+arrayOfObjects[1].favColor;
+
+/** Exercise - 8
     =============
     1. Create an object to hold information on your favorite recipe. It should have properties for a 
         1.  title (a string), 
@@ -162,3 +199,17 @@ console.log(favoriteRecipe, favoriteRecipe.ingredients.length);
 favoriteRecipe.ingredients.push('sugar');
 // favoriteRecipe.ingredients[3] = 'sugar';
 console.log(favoriteRecipe);
+
+let person = {
+  name: 'Sebin',
+  age: 25,
+  address: {
+    companyName: 'MRHQ',
+    buildingName: 'L5',
+    addressLine1: '115 Queen Street',
+    addressLine2: 'Auckland',
+    addressLine3: 'New Zealand',
+    deliveryInstructions: '9 to 5 only',
+    senderAddress: 'some address here',
+  },
+};
