@@ -86,3 +86,51 @@ console.log(student2.firstName); // Monica
 // change(set) object property using a setter
 student2.changeName = 'Sarah';
 console.log(student2.firstName); // Sarah
+
+/**
+ * Exercise  2
+ * ===========
+ * Create a CarSales class that has getter and setter methods 
+   to ensure that a carList array is maintained using getters and setters.
+ * When the user assigns a value to a car property, add it to the carList array.
+ * When the user tries to read the value of the car property, return the entire array. 
+    * If the array is empty, print out a message that says – ‘Sorry! We don’t have any cars yet’
+  
+  Bonus : 
+  -------
+  * Create a rentACar() method that takes a car off the carList
+  * Create a returnCar() method that adds a car back to the carlist
+ * 
+ */
+
+class CarSales {
+  carList = [];
+
+  set car(carName) {
+    this.carList.push(carName);
+  }
+
+  get car() {
+    if (this.carList.length === 0) {
+      return 'Sorry! We don’t have any cars yet';
+    }
+    return this.carList;
+  }
+
+  // Bonus methods
+  rentCar() {
+    // for more challenge, find the index and slice the specific car from the array.
+    this.carList.pop();
+  }
+  returnACar(carName) {
+    this.carList.push(carName);
+  }
+}
+
+const bmwSales = new CarSales();
+bmwSales.car = 'x1';
+console.log(bmwSales.car);
+bmwSales.car = 'y1';
+console.log(bmwSales.car);
+bmwSales.car = 'z1';
+console.log(bmwSales.car);
