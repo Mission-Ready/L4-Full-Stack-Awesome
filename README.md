@@ -19,7 +19,6 @@ Happy Coding 🔥🧑‍💻
  * Week 3
     * References - [More on JavaScript](week-3/README.md)
     * Resources - [Workshop Code](week-3)
-<!--
 * Week 4
     * References - [More on JavaScript part 2](week-4/README.md)
     * Resources - [Workshop Code](week-4)
@@ -27,8 +26,9 @@ Happy Coding 🔥🧑‍💻
     * References - [React](week-5/README.md)
     * Resources - [Workshop Code](week-5)
 * Week 6
-    * References - [More React](week-6/README.md)
+    <!-- * References - [More React](week-6/README.md) -->
     * Resources - [Workshop Code](week-6)
+<!--
 * Week 7
     * References - [Material UI/Redux](week-7/README.md)
     * Resources - [Workshop Code](week-7)
