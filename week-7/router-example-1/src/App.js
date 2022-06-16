@@ -22,22 +22,3 @@ const App = () => {
 };
 
 export default App;
-
-/**
- * import InputComponent from './components/InputComponent';
-import ShowInput from './components/ShowInput';
-
-const App = () => {
-  const [val, setVal] = useState('');
-  const handleChangeMethodInApp = (event) => setVal(event.target.value);
-
-  return (
-    <div style={{ border: '2px solid black', margin: '5px' }}>
-      {/*orange component}
-      <InputComponent val={val} handleChange={handleChangeMethodInApp} /> 
-      {/*green component}
-      <ShowInput val={val} />
-    </div>
-  );
-};
- */
