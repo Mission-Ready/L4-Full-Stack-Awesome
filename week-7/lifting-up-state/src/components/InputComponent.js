@@ -1,9 +1,7 @@
 import { useState } from 'react';
 
-export default function InputComponent({val, handleInputChange }) {
-
+export default function InputComponent({ val, handleInputChange }) {
   const [inputToShow, setInputToShow] = useState('');
-
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
@@ -11,10 +9,10 @@ export default function InputComponent({val, handleInputChange }) {
   };
 
   return (
-    <div>
+    <div style={{ border: '2px dashed orange' }}>
       <form onSubmit={handleFormSubmit}>
         <input type="text" value={val} onChange={handleInputChange} />
-        <input type="submit" />
+        <button type="submit"> Submit </button>
       </form>
       <h1>{inputToShow}</h1>
     </div>
