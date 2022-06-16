@@ -1,12 +1,11 @@
-import { useState } from 'react';
-import IfStatementExample from './IfStatementExample';
+// import IfStatementExample from './IfStatementExample';
 import CatDog from './CatDog';
-import CatDog2 from './CatDog2';
+// import CatDog2 from './CatDog2';
 
 function App() {
-  const [showContent, setShowContent] = useState(false);
+  // const [showContent, setShowContent] = useState(false);
 
-  const changeContent = () => setShowContent(!showContent);
+  // const changeContent = () => setShowContent(!showContent);
   return (
     <>
       <div>
@@ -19,8 +18,8 @@ function App() {
         </div>
       </div>
       {/* <IfStatementExample></IfStatementExample> */}
-      {/* <CatDog></CatDog> */}
-      <CatDog2></CatDog2>
+      <CatDog></CatDog>
+      {/* <CatDog2></CatDog2> */}
     </>
   );
 }
