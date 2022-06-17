@@ -20,9 +20,9 @@ function App() {
         {/* localhost:3000 + /about =>  localhost:3000/about  */}
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/login" element={<Login/>}/>
-          <Route path="/signup" element={<Signup/>}/> {/** Exercise 4 */ }
-          <Route path="/book/:bookID" element={<Book/>}/> {/** Exercise 5 */ }
-          <Route path="/car/:modelNo" element={<Car/>}/> {/** Exercise 5.1 */ }
+          <Route path="/signup" element={<Signup/>}/> {/** Exercise 2 */ }
+          <Route path="/book/:bookID" element={<Book/>}/> {/** Exercise 3 */ }
+          <Route path="/car/:modelNo" element={<Car/>}/> {/** Exercise 3.1 */ }
         </Routes>
       </BrowserRouter>
     </>
