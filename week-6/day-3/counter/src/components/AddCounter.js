@@ -2,7 +2,7 @@
 import { useState } from 'react';
 
 export default function AddCounter() {
-    // Creating a state variable called count
+  // Creating a state variable called count
   // Initialized with a value 0; kind of like let count = 0;
 
   const [count, setCount] = useState(0);
