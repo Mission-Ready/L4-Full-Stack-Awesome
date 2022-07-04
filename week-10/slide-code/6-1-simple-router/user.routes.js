@@ -7,7 +7,7 @@ userRouter.get('/read', (req, res) => {
   res.send('Hello GET !on user router');
 });
 
-// /user + /add
+// /user + /add => localhost:4000/user/add
 userRouter.post('/add', (req, res) => {
   console.log('POST called on user router');
   res.send('Hello POST !on user router');
@@ -15,7 +15,7 @@ userRouter.post('/add', (req, res) => {
 
 // /user + /
 userRouter.put('/', (req, res) => {
-  console.log('PUT called on user router');
+  console.log('PUT cclalled on user router');
   res.send('Hello PUT !on user router');
 });
 
