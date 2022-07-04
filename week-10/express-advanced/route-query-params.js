@@ -1,6 +1,6 @@
 /**
  *
- * Ways to grab information from the client/user
+ * Common ways to grab information from the client/user
  *
  * 1. Route parameters
  *    localhost:3000/user/5/blue . /user/:userID/:favColor
@@ -19,7 +19,10 @@
  *    app.use(express.json()); Needs extra processing
  *    const { name } = req.body;
  * 
- *   Read more = https://stackoverflow.com/questions/30967822/when-do-i-use-path-params-vs-query-params-in-a-restful-api
+ *    Read more = https://stackoverflow.com/questions/30967822/when-do-i-use-path-params-vs-query-params-in-a-restful-api
+ *  
+ *  4. From Request Headers
+ *    More advanced & rare. 
  */
 
 const express = require('express');
@@ -53,6 +56,7 @@ app.get('/student', (req, res) => {
    Path params - identify a resource.
         /customer/sebin -> needs to refer to a resource ie, like /customer/sebin
         /car/:id
+
    Query params - sort/filter the resource.
         /customer/sebin?transactions_from=monday => asking a specific info from the resource
         /car?color=blue

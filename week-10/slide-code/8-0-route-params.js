@@ -9,6 +9,14 @@ const app = express();
  Values are populated in the req.params object, with the name of the route parameter specified in the path as their respective keys.
 */
 
+// Route Parameters - localhost:5000/city/Auckland
+app.get('/city/:cityName', (req, res) => {
+  console.log('Received a GET request to /city');
+  const { cityName } = req.params;
+  res.send(`You have asked something about ${cityName}`);
+});
+
+
 const userData = [
   { name: 'Sebin', age: 25 },
   { name: 'John', age: 20 },
