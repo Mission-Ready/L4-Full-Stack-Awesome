@@ -6,7 +6,6 @@ const server = http.createServer((req, res) => {
   if(req.url === '/')
   {
     res.write('Hello from the node.js server. You have visited /.');
-    res.write('New stuff');
     res.end();
   }
   else if(req.url === '/car')

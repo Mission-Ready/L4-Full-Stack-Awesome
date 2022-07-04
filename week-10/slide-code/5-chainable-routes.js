@@ -1,7 +1,11 @@
 const express = require('express');
+const cors = require('cors');
 
 // Instantiate an application by calling the express() method
 const app = express();
+
+app.use(cors())
+
 
 // Chain-able route handlers
 // Route path is specified once in a single location

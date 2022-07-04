@@ -1,14 +1,17 @@
 {
-  "name": "express-intro-sebin",
-  "version": "1.2.0",
+  "name": "express-intro",
+  "version": "1.0.0",
   "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node index.js",
+    "serve": "nodemon index.js",
+    "hahaha": "echo \"I am happy today\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sebin Benjamin",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.17.3"
   }
 }
