@@ -12,10 +12,9 @@ const app = express();
 // Route Parameters - localhost:5000/city/Auckland
 app.get('/city/:cityName', (req, res) => {
   console.log('Received a GET request to /city');
-  const { cityName } = req.params;
+  const { cityName } = req.params; // req.params.cityName
   res.send(`You have asked something about ${cityName}`);
 });
-
 
 const userData = [
   { name: 'Sebin', age: 25 },
@@ -44,6 +43,8 @@ const userData2 = [
 // /user/0 => { name: 'Sebin', age: 25 },
 // /user/1 => { name: 'John', age: 20 },
 app.get('/v2/user/:id', (req, res) => {
+  console.log(req.path, req.params);
+
   const { id } = req.params;
   if (id >= 4) {
     res.statusCode = 400;
@@ -88,12 +89,13 @@ app.get('/user/:id/project', (req, res) => {
 
 //
 // Values in the req params/path parameter are string values
+// localhost:4000/user/3/project/31y62b
 app.get('/user/:id/project/:projectID', (req, res) => {
   console.log('Request Params object', req.params);
-  // Refer Object destructuring syntax
-  // const { id, projectID } = req.params;
-  const id = req.params.id;
-  const projectID = req.params.projectID;
+
+  const { id, projectID } = req.params;
+  // const id = req.params.id;
+  // const projectID = req.params.projectID;
 
   res.json({
     user: {

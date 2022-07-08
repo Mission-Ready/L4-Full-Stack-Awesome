@@ -5,15 +5,13 @@ const app = express();
 
 // Global Middleware 1 - executes someCommonTaskToBeExecuted
 app.use((req, res, next) => {
-  console.log('***Global Middleware 1***');
-  console.log(req.method, req.url);
+  console.log('***Global Middleware 1***', req.method, req.url);
   next();
 });
 
 // Global Middleware 2 - executes anotherCommonTaskToBeExecuted
 app.use((req, res, next) => {
-  console.log('***Global Middleware 2***');
-  console.log('called at', new Date().toISOString());
+  console.log('***Global Middleware 2***', 'called at', new Date().toUTCString());
   next();
 });
 
