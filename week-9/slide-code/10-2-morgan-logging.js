@@ -4,8 +4,8 @@ const morgan = require('morgan');
 const app = express();
 // app.use(morgan('common'));
 // app.use(morgan('tiny'));
-app.use(morgan('dev'));
-// app.use(morgan('common'));
+// app.use(morgan('dev'));
+app.use(morgan('common'));
 
 app.get('/hello', (req, res) => {
   res.send('World');
