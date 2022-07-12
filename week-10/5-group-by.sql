@@ -1,5 +1,12 @@
 SELECT * FROM COUNTRY;
 
+-- No of cities in the country.
+SELECT countryCode, COUNT(*) 'No of cities in the country'
+FROM city GROUP BY countryCode;
+
+-- Question: Write a query to get the no of countries in each continent
+SELECT Continent, count(Continent) `No of countries in each continent` FROM world.country group by Continent;
+
 -- Population of each district, found by adding up that of the cities with the same district
 SELECT 
     District, SUM(Population) 'Population'

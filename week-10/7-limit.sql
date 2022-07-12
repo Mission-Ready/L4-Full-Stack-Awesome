@@ -56,41 +56,39 @@ FROM
 ORDER BY Name
 LIMIT 5 OFFSET 1;
 
-SELECT 
-    *
-FROM
-    world.country
-ORDER BY Name
-LIMIT 1 , 5;
-
--- Show the first 3 results
-SELECT 
-    *
+SELECT *
 FROM
     world.country
 WHERE
-    Region LIKE 'A%'
+    Name LIKE 'A%'
+ORDER BY Name
+LIMIT 3 , 3;
+
+-- Show the first 3 results starting with A
+SELECT *
+FROM
+    world.country
+WHERE
+    Name LIKE 'A%'
 ORDER BY Name
 LIMIT 0 , 3;
 
--- Show the NEXT 3 results
+-- Show the NEXT 3 results starting with A
 -- Offset => Page no X the no of results in a pages 
-SELECT 
-    *
+SELECT *
 FROM
     world.country
 WHERE
-    Region LIKE 'A%'
+    Name LIKE 'A%'
 ORDER BY Name
 LIMIT 3 , 3;
 
 -- Show the NEXT 3 results
-SELECT 
-    *
+SELECT *
 FROM
     world.country
 WHERE
-    Region LIKE 'A%'
+    Name LIKE 'A%'
 ORDER BY Name
 LIMIT 6 , 3;
 
