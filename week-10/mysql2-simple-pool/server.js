@@ -5,7 +5,7 @@ const app = express();
 
 // Connects to your own local database
 // Replace user & password with your own. Default user is 'root'
-const connection = mysql.createConnection({
+const pool = mysql.createPool({
   host: 'localhost',
   user: 'developer',
   password: 'abcdefghijkl`12',
@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
   console.log('Received a GET request to /');
 
   // Run the SQL query, when you get a request to /
-  connection.execute(`SELECT * FROM WORLD.CITY LIMIT 2;`, (error, result) => {
+  pool.query(`SELECT * FROM WORLD.CITY LIMIT 2;`, (error, result) => {
     if (error) {
       console.log('Error', error);
       res.send("You' got an error ! " + error.code);
@@ -31,7 +31,7 @@ app.get('/city', (req, res) => {
   console.log('Received a GET request to /');
 
   // Run the SQL query, when you get a request to /
-  connection.query(
+  pool.query(
     `SELECT NAME FROM WORLD.CITY WHERE NAME LIKE 'A%';`,
     (error, result) => {
       if (error) {
@@ -51,7 +51,7 @@ app.get('/country/:code', (req, res) => {
   const { code } = req.params;
 
   // Run the SQL query, when you get a request to /
-  connection.query(
+  pool.query(
     `SELECT * FROM country WHERE code = '${code}';`,
     (error, result) => {
       if (error) {

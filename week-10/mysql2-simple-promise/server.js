@@ -18,7 +18,7 @@ connectDB();
 app.get('/', async (req, res) => {
   console.log('Received a GET request to /');
   try {
-    const [rows] = await connection.query(`SELECT * FROM WORLD.CITY LIMIT 2;`);
+    const [rows] = await connection.execute(`SELECT * FROM WORLD.CITY LIMIT 2;`);
     console.log(rows, new Date().toISOString());
     res.send(rows);
   } catch (error) {
