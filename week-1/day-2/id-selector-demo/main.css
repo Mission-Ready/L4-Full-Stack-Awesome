@@ -1,0 +1,13 @@
+h1 {
+  font-size: 90px;
+}
+
+p {
+  margin: 35px, 0;
+  color: brown;
+}
+
+/* ID selector. Applies the rules to one specific element with ID as intro */
+#intro {
+  font-family: "Tahoma";
+}

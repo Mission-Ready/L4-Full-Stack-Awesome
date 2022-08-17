@@ -1,0 +1,34 @@
+h1 {
+  font-size: 45px;
+  text-decoration: underline dotted red 5px; /* shorthand property for the following  */
+  
+  /*
+    text-decoration-line (required) => underline
+    text-decoration-style => dotted
+    text-decoration-color => red
+    text-decoration-thickness => 5px
+    */
+}
+
+p {
+  /*  
+    Multi Line comments in CSS.
+    These start with a /* and end with 
+  */
+  margin: 0px 50px;
+  /* 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+  */
+  color: brown;
+  font-size: 40px;
+
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: blueviolet;
+  text-decoration-thickness: 5px;
+
+  /* text-decoration: underline dashed green 5px; */
+}

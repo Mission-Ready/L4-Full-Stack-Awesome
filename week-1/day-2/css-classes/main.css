@@ -1,0 +1,11 @@
+/* h1 is the CSS element selector - all elements of h1 gets these rules*/
+h1 {
+  color: blue;
+  text-decoration: underline dotted pink 5px;
+}
+
+/* .underlineText is the CSS Class selector.
+All element belonging to the class gets the rules. */
+.underlineText {
+    text-decoration: underline dotted green 5px;
+}
