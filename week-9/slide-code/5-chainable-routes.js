@@ -11,7 +11,7 @@ app
     res.send('Get a car!');
   })
   .post((req, res) => {
-    res.send('Sell a car!');
+    res.send('Make a car!');
   })
   .delete((req, res) => {
     res.send('Destroy a car!');
@@ -23,7 +23,7 @@ app.get('/car', (req, res) => {
 });
 
 app.post('/car', (req, res) => {
-  res.send('Sent a  car!');
+  res.send('Make a  car!');
 });
 
 app.delete('/car', (req, res) => {

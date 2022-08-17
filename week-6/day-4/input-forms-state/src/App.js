@@ -1,23 +1,22 @@
-import {useState} from 'react';
+import { useState } from 'react';
 
 function App() {
-  const [userInput, setUserInput] = useState("");
+  const [userInput, setUserInput] = useState('');
 
-  function handleChange(event) {
+  function handleInputChange(event) {
     const newInputText = event.target.value;
-    console.log(newInputText);
     setUserInput(newInputText); // this updates the state
   }
 
   return (
     <>
-      <div>
-        <label>Your name</label>
-        <div>
-          <input type="text" onChange={handleChange} />
-        </div>
-        {userInput} <br />
-      </div>
+      <label>Your name</label>
+      <br />
+      <br />
+      <input type="text" onChange={handleInputChange} />
+      <br />
+      <br />
+      {userInput}
     </>
   );
 }

@@ -7,9 +7,9 @@ function changeColour() {
     if (currentColour === 5) {
         currentColour = 0;
     } else {
-        currentColour++;
-    }
-    document.body.style.background = colourArray[currentColour];
+    currentColour++;
+  }
+  document.body.style.background = colourArray[currentColour];
 }
 
 // using getElementById()
@@ -17,27 +17,33 @@ function changeColour() {
 // helloWorldHead.style.fontSize = '10px';
 // helloWorldHead.textContent = 'Goodbye World';
 
-// using querySelector() 
+// using querySelector()
 let helloWorldHead = document.querySelector('#helloWorldHeader');
 helloWorldHead.style.fontSize = '10px';
 helloWorldHead.textContent = 'Goodbye World';
 
 //using EventListener()
 let someElement = document.getElementById('eventListen');
-someElement.addEventListener('mouseover', (e) => e.target.style.background = 'blue');
+someElement.addEventListener(
+  'mouseover',
+  (e) => (e.target.style.background = 'blue')
+);
 
-someElement.addEventListener('mouseout', (e) => e.target.style.background = 'white');
+someElement.addEventListener(
+  'mouseout',
+  (e) => (e.target.style.background = 'white')
+);
 
 // counter example
 function addCount() {
-    const counter = document.querySelector('#counter-number')
-    counter.textContent++;
+  const counter = document.querySelector('#counter-number');
+  counter.textContent++;
 }
 
 // word count exercise
-const wordCount = document.getElementById('wordCount')
+const wordCount = document.getElementById('wordCount');
 function logValue(e) {
-    wordCount.textContent = " word count: " + e.target.value.length;
+  wordCount.textContent = ' word count: ' + e.target.value.length;
 }
 
 const inputElement = document.querySelector('#inputExample');
@@ -49,7 +55,13 @@ const num2 = document.getElementById('num2');
 const result = document.getElementById('result');
 
 function sumNumbers() {
-    result.textContent = 'result: ' + num1.value + ' + ' + num2.value + ' = ' + (parseInt(num1.value) + parseInt(num2.value));
-    num1.value = '';
-    num2.value = '';
+  result.textContent =
+    'result: ' +
+    num1.value +
+    ' + ' +
+    num2.value +
+    ' = ' +
+    (parseInt(num1.value) + parseInt(num2.value));
+  num1.value = '';
+  num2.value = '';
 }

@@ -20,6 +20,10 @@ const server = http.createServer((req, res) => {
     res.write(`
     <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=1200:*" width="100%">
     `);
+  } else if (req.url === '/users') {
+    res.setHeader('Content-Type', 'application/json');
+    const jsonString = JSON.stringify({ 'user' : 'Sebin Benjamin'});
+    res.write(jsonString);
   } else {
     res.write(`<h1> Sorry, we only have cats & dogs.</h1>`);
   }
@@ -27,5 +31,5 @@ const server = http.createServer((req, res) => {
 });
 
 // Start the server. listen to requests
-server.listen(5000);
-console.log("Started server on port", 5000);
+server.listen(5001);
+console.log('Started server on port', 5001);

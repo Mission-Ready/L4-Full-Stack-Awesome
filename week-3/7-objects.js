@@ -13,6 +13,7 @@ printName('Sebin', 'Benjamin');
 function printNameFromObject(person) {
   console.log('Hello ' + person.firstName + ' ' + person.lastName);
 }
+
 const person = {
   firstName: 'Sebin',
   lastName: 'Benjamin',

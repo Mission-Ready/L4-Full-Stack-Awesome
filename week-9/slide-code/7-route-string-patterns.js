@@ -5,6 +5,7 @@ const app = express();
 
 /**
  * /cats? => /cat works and /cats also work
+ * ? => 's' becomes an optional character in the path
  */
 app.get('/cats?', (req, res) => {
   res.send(`
@@ -13,7 +14,8 @@ app.get('/cats?', (req, res) => {
 });
 
 /**
- * /dog? => /dog works and /doggg and /dogggggggg etc also work
+ * /dog* => /dog works and /doggg and /dogggggggg etc also work
+ * * => g can be repeated any no of times and still the path would match.
  */
 app.get('/dog*', (req, res) => {
   res.send(`
@@ -21,4 +23,4 @@ app.get('/dog*', (req, res) => {
     `);
 });
 
-app.listen(5000);
+app.listen(4000);

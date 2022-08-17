@@ -1,10 +1,12 @@
 const express = require('express');
 const app = express();
 
-app.get('/cat', (req, res) => {
+console.log('This is the cat dog example');
+
+app.get('/dinosaur', (req, res) => {
   // send => write +end
   res.send(`
-  <img src="https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png" width="100%">
+  <img src="https://i.natgeofe.com/n/d4492040-e42e-4c0b-9604-3b1ddea67f88/FInal-Submission_NJG_square.jpg" width="100%">
   `);
 });
 
@@ -16,4 +18,8 @@ app.get('/dog', (req, res) => {
   `);
 });
 
-app.listen(4001);
+app.get('*', (req, res) => {
+  res.send('Invalid request made: ' + req.method + " " +  req.path);
+});
+
+app.listen(4000);

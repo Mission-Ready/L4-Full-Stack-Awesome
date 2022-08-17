@@ -1,0 +1,15 @@
+{
+  "name": "week-12",
+  "version": "1.0.0",
+  "description": "",
+  "main": "0-sum-prime.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}

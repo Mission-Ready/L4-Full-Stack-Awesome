@@ -57,15 +57,17 @@ const characters = [
 const sortByDoB = (charsArray) => {
   return charsArray.sort((a, b) => a.birthdate - b.birthdate);
 };
+console.log(sortByDoB(characters));
 
 const sortByDeathYear = (charsArray) => {
   return charsArray.sort((a, b) => a.death - b.death);
 };
-console.log(sortByDoB(characters));
+console.log(sortByDeathYear(characters));
 
 const sortByName = (charsArray) => {
   return charsArray.sort((a, b) => a.name.localeCompare(b.name));
 };
+
 console.log(sortByName(characters));
 
 console.log('sorted array = ' + unsortedArray);

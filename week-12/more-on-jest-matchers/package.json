@@ -1,0 +1,16 @@
+{
+  "name": "more-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "2-more-jest.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dev-dependencies": {
+    "jest": "^28.1.3"
+  }
+}
