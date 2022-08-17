@@ -22,6 +22,9 @@
 
 # CSS
 
+### CSS Rules
+- http://css.maxdesign.com.au/selectutorial/rule.htm 📙
+  
 ### CSS Shorthand properties
 - http://web.simmons.edu/~grabiner/comm244/weekfour/document-tree.html 📙
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties 
