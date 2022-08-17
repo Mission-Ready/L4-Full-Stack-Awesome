@@ -1,3 +1,8 @@
+# HTML
+
+### Document Tree/Hierarchy 
+- http://web.simmons.edu/~grabiner/comm244/weekfour/document-tree.html 📙
+
 ### HTML starter course
 - https://www.youtube.com/watch?v=pQN-pnXPaVg&ab_channel=freeCodeCamp.org 2:02:31
 <img src="https://img.youtube.com/vi/pQN-pnXPaVg/maxresdefault.jpg" width=480>
@@ -15,8 +20,11 @@
 <img src="https://img.youtube.com/vi/tv6bxtCjqDI/maxresdefault.jpg" width=480>
 
 
-## CSS
+# CSS
 
+### CSS Shorthand properties
+- http://web.simmons.edu/~grabiner/comm244/weekfour/document-tree.html 📙
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties 
 ### CSS crash course
 - https://www.youtube.com/watch?v=yfoY53QXEnI&t=12s&ab_channel=TraversyMedia 1:25:10
 <img src="https://img.youtube.com/vi/yfoY53QXEnI/maxresdefault.jpg" width=480>
@@ -26,6 +34,7 @@
 <img src="https://img.youtube.com/vi/1Rs2ND1ryYc/maxresdefault.jpg" width=480>
 
 ### CSS Specificity (which types of styles take importance over others)
+- https://www.w3schools.com/css/css_specificity.asp
 - https://www.youtube.com/watch?v=c0kfcP_nD9E&list=PL4-IK0AVhVjP27yZLwW-gkPggRps0CCnP&ab_channel=KevinPowell 13:26
 <img src="https://img.youtube.com/vi/c0kfcP_nD9E/maxresdefault.jpg" width=480>
 
@@ -33,7 +42,7 @@
 - https://www.youtube.com/watch?v=N5wpD9Ov_To&ab_channel=KevinPowell 6:29
 <img src="https://img.youtube.com/vi/N5wpD9Ov_To/maxresdefault.jpg" width=480>
 
-### Positon relative and Position absolute explained
+### Position relative and Position absolute explained
 - https://www.youtube.com/watch?v=P6UgYq3J3Qs&ab_channel=KevinPowell 8:30
 <img src="https://img.youtube.com/vi/P6UgYq3J3Qs/maxresdefault.jpg" width=480>
 
@@ -56,3 +65,7 @@
 ### Learn CSS media queries with projects
 - https://www.youtube.com/watch?v=aook54SsfhY&ab_channel=freeCodeCamp.org 1:26:13 
 <img src="https://img.youtube.com/vi/aook54SsfhY/maxresdefault.jpg" width=480>
+
+# Challenges
+- CSS Diners game - Learn about CSS Specificity - https://flukeout.github.io/
+- 
