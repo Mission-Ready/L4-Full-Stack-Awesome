@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>CSS Selector Logic</title>
+  <link rel="stylesheet" href="selectors.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <form action="mailto:sebin@missionreadyhq.com" method="POST">
+    <!-- for & id associates a label with a form field -->
+    <label for="myName"> What is your name </label>
+    <input type="text" name="myName" id="myName" placeholder="good name" required>
+
+    <br>
+    <label for="email"> Your email </label>
+    <input type="text" name="email" id="email" placeholder="name@domain.com" required>
+    <br>
+
+    <!-- Radio buttons - choose one of a predefined set of options -->
+    <h4>Subject</h4>
+    <input type="radio" id="sales" name="subject" required>
+    <label for="sales">Sales</label>
+    <br>
+    <input type="radio" id="support" name="subject" required>
+    <label for="support">Support</label>
+    <br>
+    <input type="radio" id="others" name="subject" required>
+    <label for="others">Others</label>
+    <hr>
+    <br>
+
+    <label for="message">Enter your message </label>
+    <br>
+    <textarea name="message" id="message" cols="50" rows="10"></textarea>
+    <br>
+    <hr>
+    <input type="submit">
+  </form>
+
+  <div>
+    <h1>Hello World</h1>
+    <p>Ullamco exercitation enim aliquip tempor labore enim culpa aute mollit nostrud. Officia quis do fugiat aute ea,
+    </p>
+  </div>
+
+  <h1>Hello again</h1>
+  <p>This is another paragraph. But I want to be black.</p>
+
+  <section>
+    <h2>This is in the outer div</h2>
+    <div>
+      <h2>This is in the inner div</h2>
+      <p>
+        This is another paragraph. But I want to be black.
+      </p>
+    </div>
+  </section>
+
+</body>
+
+</html>

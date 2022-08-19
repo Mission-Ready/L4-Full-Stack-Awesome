@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Forms basics</title>
+</head>
+
+<body>
+  <form action="">
+    <!-- for & id associates a label with a form field -->
+    <label for="username"> What is your name: </label>
+    <input type="text" name="username" id="username" required>
+    <br>
+
+    <!-- <label> What is your favorite number:
+      <input type="number" name="favNumber">
+    </label> -->
+
+    <!-- Radio buttons - choose one of a predefined set of options -->
+    <h4>Choose your preferred drink</h4>
+    <input type="radio" id="tea" name="drink">
+    <label for="tea">Tea</label>
+    <br>
+    <input type="radio" id="coffee" name="drink">
+    <label for="coffee">Coffee</label>
+    <br>
+    <input type="radio" id="chocolate" name="drink">
+    <label for="chocolate">Chocolate drink</label>
+
+    <h4>What sport do you play</h4>
+    <input type="checkbox" name="sports" id="soccer">
+    <label for="soccer">Soccer</label>
+    <input type="checkbox" name="sports" id="cricket" checked>
+    <label for="cricket">Cricket</label>
+    <input type="checkbox" name="sports" id="baseball">
+    <label for="baseball">Baseball</label>
+    <input type="checkbox" name="sports" id="badminton">
+    <label for="badminton">Badminton</label>
+
+    <hr>
+
+    <label for="cities">Choose your nearest city</label>
+    <select name="city" id="cities">
+      <option hidden selected>Select one</option>
+      <option value="auckland">Auckland</option>
+      <option value="chch">Christchurch</option>
+      <option value="wiri">Wiri</option>
+    </select>
+
+    <br>
+    <br>
+    <input type="submit">
+  </form>
+
+</body>
+
+</html>

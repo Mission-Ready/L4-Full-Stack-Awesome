@@ -1,0 +1,38 @@
+input {
+  width: 40%;
+}
+
+label {
+  font-family: 'Tahoma';
+}
+
+input[type='text'],
+input[type='email'] {
+  border: none;
+  border-bottom: 2px solid purple;
+  padding: 5px 5px;
+  margin: 8px 0;
+}
+
+input[type='radio'] {
+  width: 20px;
+}
+
+textarea {
+  border: 2px solid purple;
+}
+
+input[type='submit'] {
+  background-color: purple;
+  color: white;
+  width: 30%;
+}
+
+/* Adjacent sibling selector (+) - selects an element directly after another specific element */
+input[type='radio'] + label {
+  color: purple;
+}
+
+h1 {
+  color: red;
+}

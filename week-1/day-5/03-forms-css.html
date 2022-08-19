@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Other Form inputs</title>
+  <link rel="stylesheet" href="03-form-css.css">
+</head>
+
+<body>
+  <form action="mailto:sebin@missionreadyhq.com" method="POST">
+    <!-- for & id associates a label with a form field -->
+    <label for="myName"> What is your name </label>
+    <input type="text" name="myName" id="myName" placeholder="good name" required>
+
+    <br>
+    <label for="email"> Your email </label>
+    <input type="text" name="email" id="email" placeholder="name@domain.com" required>
+    <br>
+
+    <!-- Radio buttons - choose one of a predefined set of options -->
+    <h4>Subject</h4>
+    <input type="radio" id="sales" name="subject" required>
+    <label for="sales">Sales</label>
+    <br>
+    <input type="radio" id="support" name="subject" required>
+    <label for="support">Support</label>
+    <br>
+    <input type="radio" id="others" name="subject" required>
+    <label for="others">Others</label>
+    <hr>
+    <br>
+
+    <label for="message">Enter your message </label>
+    <br>
+    <textarea name="message" id="message" cols="50" rows="10"></textarea>
+    <br>
+    <hr>
+    <input type="submit">
+  </form>
+  
+  <!-- Inline CSS - has the most priority. -->
+  <h1 style="color: green">
+    This is a heading
+  </h1>
+</body>
+
+</html>

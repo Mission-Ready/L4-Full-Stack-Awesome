@@ -1,0 +1,48 @@
+/* @font-face {
+  font-family: 'CustomFont';
+  src: url('punk_kid.ttf');
+} */
+
+body {
+  background-color: aquamarine;
+}
+
+input {
+  width: 50%;
+}
+
+/* 
+label {
+  font-family: Impact;
+}
+
+input {
+  font-family: Impact;
+} 
+
+*/
+
+/* Comma => Applies same rules to multiple selector */
+label,
+input,
+textarea {
+  font-family: 'Noto Sans';
+  color: rebeccapurple;
+}
+
+/* 1. Child selector >, Selects all children of the first element */
+div > p {
+  color: white;
+  background-color: red;
+}
+
+/* 2. Descendent selector, selects a descendent element */
+section p {
+  color: white;
+  background-color: chocolate;
+}
+
+/* More important than the above */
+p {
+  background-color: blue;
+}

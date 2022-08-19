@@ -1,0 +1,37 @@
+body {
+  background-color: antiquewhite;
+}
+
+/* 1. Element selector (aka type selector) */
+input {
+  width: 40%;
+}
+
+label {
+  font-family: 'Tahoma';
+}
+
+/* 2. Attribute selector */
+/* Here input elements with the attribute value for the type as 'week' gets selected */
+input[type='week'] {
+  background-color: aquamarine;
+}
+
+/* 3. Universal selector */
+* {
+  border: dashed red 1px;
+}
+
+/* 
+
+ 4. Class selector
+.classname {
+
+}
+
+5. ID Selector
+#idName {
+
+} 
+
+*/

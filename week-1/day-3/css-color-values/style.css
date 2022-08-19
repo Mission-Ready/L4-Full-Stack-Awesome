@@ -1,0 +1,24 @@
+body {
+  /* Color names */
+  /* background-color: antiquewhite; */
+  
+  /* 
+    Binary (base 2) - 0 and 1
+    Decimal numbers (base 10) : 0 - 9
+    Hexadecimal (base 16) : 0 - 9, a to f
+      10 - a
+      11 - b
+      ...
+      15 - f
+  */
+
+  /* Hexadecimal color values */
+  /*                    #RRGGBB  */
+  /* background-color: #ff0000; - RED  */
+  /* background-color: #00ff00; - GREEN */
+  /*background-color: #0000ff;  BLUE*/
+
+  /* integer between 0 and 255 for each color */
+  /* background-color: rgb(255, 0, 0); RED */
+  background-color: rgb(246, 205, 58);
+}

@@ -24,7 +24,10 @@
 
 ### CSS Rules
 - http://css.maxdesign.com.au/selectutorial/rule.htm 📙
-  
+
+### CSS Box Model
+-https://www.theodinproject.com/lessons/foundations-the-box-model 📙
+
 ### CSS Shorthand properties
 - http://web.simmons.edu/~grabiner/comm244/weekfour/document-tree.html 📙
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties 
@@ -71,4 +74,4 @@
 
 # Challenges
 - CSS Diners game - Learn about CSS Specificity - https://flukeout.github.io/
-- 
+- Flexbox Frog - Learn about the flexbox value - https://flexboxfroggy.com/
