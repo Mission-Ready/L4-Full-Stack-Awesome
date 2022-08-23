@@ -1,0 +1,68 @@
+/* Define the animation - using keyframes */
+@keyframes simple-animation {
+  0% {
+    background-color: red;
+    left: 0;
+    top: 0;
+    /* top left */
+  }
+  25% {
+    background-color: aqua;
+    left: 200px;
+    top: 0;
+    /* top right */
+  }
+
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+    /* bottom right */
+  }
+  75% {
+    background-color: chocolate;
+    left: 0px;
+    top: 200px;
+    /* bottom left */
+  }
+  100% {
+    background-color: yellow;
+    left: 0px;
+    top: 0px;
+    /* top left */
+  }
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  /* Makes the div move relative to its normal position (top left) */
+  position: relative;
+
+  /* Adding the animation to the element */
+  animation-name: simple-animation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  /* animation-fill-mode: none; -- Default */
+  /* animation-fill-mode: forwards; Takes the value from the last keyframe */
+
+  animation-fill-mode: backwards; /* Takes the value from the first keyframe immediately before start. Used along with animation-delay */
+}
+
+/* 
+h1 {
+  -- Changes the default positioning of the element in the page 
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+ */
+/* 
+h1 {
+  /* Relative to its default position 
+  position: relative; 
+  top: 50px;
+  left: 50px;
+} */

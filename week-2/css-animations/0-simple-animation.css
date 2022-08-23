@@ -1,0 +1,19 @@
+/* Define the animation - using keyframes */
+@keyframes simple-animation {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+
+  /* Adding the animation to the element */
+  animation-name: simple-animation;
+  animation-duration: 4s;
+}
