@@ -13,3 +13,76 @@ body {
   background-color: #553175;
   color: white;
 }
+
+.navbar {
+  display: flex;
+  background-color: #333;
+  text-align: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Flex container */
+.section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Flex item - left column */
+.left {
+  flex: 30%; /* sets flex-basis as 30%*/
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Flex item - right column */
+.right {
+  flex: 70%; /* sets flex-basis as 30%*/
+  background-color: white;
+  padding: 20px;
+}
+
+.imgph {
+  background-color: #aaa;
+  width: 100%;
+  height: 60px;
+  padding: 20px;
+}
+
+.imgph2 {
+  background-color: #aaa;
+  width: 100%;
+  height: 200px;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #553175;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+
+/* when on a smaller screen (smaller than 768 px), apply the following CSS rules */
+@media screen and (max-width: 768px) {
+  .navbar, .section {
+    flex-direction: column;
+  }
+}
+
+/* On a very small screen, change the font size */
+@media screen and (max-width: 600px) {
+  .navbar {
+    font-size: 12px;
+  }
+}

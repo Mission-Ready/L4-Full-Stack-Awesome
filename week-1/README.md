@@ -3,6 +3,10 @@
 ### Document Tree/Hierarchy 
 - http://web.simmons.edu/~grabiner/comm244/weekfour/document-tree.html 📙
 
+
+### Semantic HTML
+- https://www.freecodecamp.org/news/semantic-html5-elements/
+
 ### HTML starter course
 - https://www.youtube.com/watch?v=pQN-pnXPaVg&ab_channel=freeCodeCamp.org 2:02:31
 <img src="https://img.youtube.com/vi/pQN-pnXPaVg/maxresdefault.jpg" width=480>
@@ -26,7 +30,8 @@
 - http://css.maxdesign.com.au/selectutorial/rule.htm 📙
 
 ### CSS Box Model
--https://www.theodinproject.com/lessons/foundations-the-box-model 📙
+- https://www.theodinproject.com/lessons/foundations-the-box-model 📙
+- https://www.washington.edu/accesscomputing/webd2/student/unit3/module4/lesson1.html 📙
 
 ### CSS Shorthand properties
 - http://web.simmons.edu/~grabiner/comm244/weekfour/document-tree.html 📙
@@ -72,6 +77,10 @@
 - https://www.youtube.com/watch?v=aook54SsfhY&ab_channel=freeCodeCamp.org 1:26:13 
 <img src="https://img.youtube.com/vi/aook54SsfhY/maxresdefault.jpg" width=480>
 
+### CSS Flexbox in 20 minutes
+- https://youtu.be/JJSoEo8JSnc 00:20:00
+
 # Challenges
 - CSS Diners game - Learn about CSS Specificity - https://flukeout.github.io/
 - Flexbox Frog - Learn about the flexbox value - https://flexboxfroggy.com/
+- 
