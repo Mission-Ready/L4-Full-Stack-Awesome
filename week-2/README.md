@@ -9,10 +9,13 @@
   - [2.3. How to use Github](#23-how-to-use-github)
   - [2.4. Git tutorial for beginners](#24-git-tutorial-for-beginners)
 - [3. JavaScript](#3-javascript)
+  - [3.0 Operators in JavaScript](#30-operators-in-javascript)
+  - [3.02 Short-hand operators](#302-short-hand-operators)
   - [3.1. JavaScript crash course](#31-javascript-crash-course)
   - [3.2. JavaScript full course for beginners](#32-javascript-full-course-for-beginners)
   - [3.3. JavaScript overview in 5 minutes](#33-javascript-overview-in-5-minutes)
   - [3.4. Getting started with JavaScript (part 1)](#34-getting-started-with-javascript-part-1)
+  - [3.5 Shorthand techniques](#35-shorthand-techniques)
 - [4. Challenges](#4-challenges)
   - [4.1 Javascript Challenges](#41-javascript-challenges)
   - [4.2 Git](#42-git)
@@ -55,6 +58,11 @@
 
 ## 3. JavaScript
 
+### 3.0 Operators in JavaScript
+- https://www.codeguage.com/courses/js/operations 📙
+
+### 3.02 Short-hand operators
+- https://codeburst.io/javascript-shorthand-assignment-operators-cc50c3e86534 📙
 ### 3.1. JavaScript crash course
 
 - https://www.youtube.com/watch?v=hdI2bqOjy3c&ab_channel=TraversyMedia 1:40:29
@@ -74,6 +82,9 @@
 
 - https://www.youtube.com/watch?v=2nZiB1JItbY&ab_channel=DevEd 10:14
   <img src="http://i3.ytimg.com/vi/2nZiB1JItbY/maxresdefault.jpg" width=480>
+
+### 3.5 Shorthand techniques
+- https://javascript.plainenglish.io/20-javascript-shorthand-techniques-that-will-save-your-time-f1671aab405f 📙
 
 ## 4. Challenges
 ### 4.1 Javascript Challenges
