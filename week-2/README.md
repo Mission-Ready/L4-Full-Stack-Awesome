@@ -72,6 +72,7 @@
 
 - https://www.youtube.com/watch?v=PkZNo7MFNFg&ab_channel=freeCodeCamp.org 3:26:42
   <img src="http://i3.ytimg.com/vi/PkZNo7MFNFg/maxresdefault.jpg" width=480>
+- https://www.codeguage.com/courses/js/  
 
 ### 3.3. JavaScript overview in 5 minutes
 
@@ -90,6 +91,7 @@
 ### 4.1 Javascript Challenges
 - https://edabit.com/challenges/javascript
 - https://www.jschallenger.com/
+- JavaScript Exercises at CodeGuage - https://www.codeguage.com/courses/js/
 - FreeCodeCamp - Basic JavaScript - https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript
 - FreeCodeCamp - ES6 - https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#es6
 - 30 days of JavaScript - https://javascript30.com/
