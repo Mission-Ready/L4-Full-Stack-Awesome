@@ -52,7 +52,7 @@ function messageCaseConverter(inputString) {
   // If the length of the string is <= 10, return the uppercase version of the string
   if (stringLength <= 10) {
     return trimmedInputString.toUpperCase(); // HELLOONE
-  } else if (stringLength > 10) {
+  } else {
     return trimmedInputString.toLowerCase(); // hello everyone
   }
 }

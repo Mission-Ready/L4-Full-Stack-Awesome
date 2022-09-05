@@ -113,6 +113,8 @@ console.log(result);
 result = isStringEmpty('');
 console.log(result);
 
+// arrow function
+
 function greet() {
   console.log('Hello World');
 }
