@@ -7,6 +7,7 @@
   - [2.1. Data Types - Beau teaches JavaScript](#21-data-types---beau-teaches-javascript)
   - [2.2. Javascript Variables & Data Types](#22-javascript-variables--data-types)
   - [2.3 Truthy & Falsey Values](#23-truthy--falsey-values)
+  - [DOM methods - Javascript](#dom-methods---javascript)
   - [2.4 Array Deletion](#24-array-deletion)
 - [3. Scope](#3-scope)
   - [3.1. JavaScript Scope (Local vs Global)](#31-javascript-scope-local-vs-global)
@@ -45,6 +46,10 @@
 ### 2.3 Truthy & Falsey Values
 
 - https://www.30secondsofcode.org/articles/s/javascript-truthy-falsy-values
+
+### DOM methods - Javascript
+
+- https://betterprogramming.pub/whats-best-innertext-vs-innerhtml-vs-textcontent-903ebc43a3fc
 
 ### 2.4 Array Deletion 
 - https://love2dev.com/blog/javascript-remove-from-array/
