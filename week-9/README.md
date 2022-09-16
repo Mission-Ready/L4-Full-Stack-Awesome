@@ -17,6 +17,7 @@
 - [5. Express routing](#5-express-routing)
   - [5.1. Express JS - Router and Routes](#51-express-js---router-and-routes)
   - [5.2. How to use Express Router](#52-how-to-use-express-router)
+  - [5.3 Rest vs SOPA](#53-rest-vs-sopa)
 
 
 
@@ -102,3 +103,6 @@
 - https://www.youtube.com/watch?v=paNikhYqdz0&ab_channel=HungryTurtleCode 9:15
 
 	<img src="https://img.youtube.com/vi/paNikhYqdz0/maxresdefault.jpg" width=480>
+
+### 5.3 Rest vs SOPA
+- https://smartbear.com/blog/soap-vs-rest-whats-the-difference/  

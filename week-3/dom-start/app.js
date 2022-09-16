@@ -6,19 +6,11 @@
 //   }
 // }
 
-// let currentColorIndex = 0;
+let currentColorIndex = 0;
 
-// function changeColor() {
-//   const colorArray = ['white', 'blue', 'purple', 'green', 'yellow', 'orange'];
-
-//   // lastIndex is normally the (length of the string - 1)
-//   if (currentColorIndex === (colorArray.length - 1)) {
-//     currentColorIndex = 0;
-//   } else {
-//     currentColorIndex++;
-//   }
-//   document.body.style.backgroundColor = colorArray[currentColorIndex];
-// }
+function changeColor() {
+  document.body.style.backgroundColor = colorArray[currentColorIndex];
+}
 
 const helloWorldHead = document.getElementById('helloWorldHeader');
 // const helloWorldHead = document.querySelector('#helloWorldHeader');

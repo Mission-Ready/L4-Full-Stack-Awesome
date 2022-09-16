@@ -27,6 +27,7 @@ fruits[Math.floor(Math.random() * 3)];
 let randomNumber = (Math.random() * 10) + 1;
 let flooredRandomNumber = Math.floor(randomNumber);
 let sqrtOfNumber = Math.sqrt(flooredRandomNumber);
+
 console.log(flooredRandomNumber, sqrtOfNumber);
 
 /*
@@ -35,4 +36,14 @@ Math.random() => 0 upto 1;
 Math.random() * 10 => 0 upto 10;
 Math.floor(Math.random() * 10) => 0 upto 10, without any fractions/decimals
 Math.floor(Math.random() * 10) + 1 => 1 upto 11 without fractions 
+
+- Random number between min (included) and max (excluded):
+Math.floor(Math.random() * (max - min) ) + min;
+Math.floor(Math.random() * (10 - 1) ) + 1;
+Math.floor(Math.random() * (9)) + 1;
+
+- Returns a random number between min and max (both included):
+Math.floor(Math.random() * (max - min + 1) ) + min;
+Math.floor(Math.random() * (10 - 1 + 1) ) + 1;
+Math.floor(Math.random() * (10) ) + 1;
 */

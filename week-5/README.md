@@ -3,6 +3,7 @@
 An overview - https://www.freecodecamp.org/news/react-beginners-guide/ 
 
 - [1. General React Tutorials](#1-general-react-tutorials)
+  - [1.0 Thinking in React](#10-thinking-in-react)
   - [1.1. React JS Course for Beginners - 2021 Tutorial](#11-react-js-course-for-beginners---2021-tutorial)
   - [1.2. React JS Crash Course 2021](#12-react-js-crash-course-2021)
   - [1.3. React JS Course for Beginners - 2021 Tutorial](#13-react-js-course-for-beginners---2021-tutorial)
@@ -26,6 +27,12 @@ An overview - https://www.freecodecamp.org/news/react-beginners-guide/
 
 ## 1. General React Tutorials
 
+### 1.0 Thinking in React
+
+- https://youtu.be/YJPSR9dEQV8 00:14:22
+ 
+  <img src="https://img.youtube.com/vi/YJPSR9dEQV8/maxresdefault.jpg" width=480>
+   
 ### 1.1. React JS Course for Beginners - 2021 Tutorial
 - https://www.youtube.com/watch?v=nTeuhbP7wdE&t=17s&ab_channel=freeCodeCamp.org 7:10:27
 

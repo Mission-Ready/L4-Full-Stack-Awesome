@@ -146,14 +146,14 @@ const tasks = [
   },
 ];
 
-// What Filter does => Keeps the elements that match a criteria 
+// What Filter does => Keeps the elements that match a criteria
 const completedTasks = tasks.filter((task) => task.completed === true);
 
 // Version 2
-const completedTasks = tasks.filter(task => task.completed === true);
+const completedTasks = tasks.filter((task) => task.completed === true);
 
 // Version 3
-const completedTasks = tasks.filter(task => task.completed);
+const completedTasks = tasks.filter((task) => task.completed);
 
 // splice Method
 console.log('splice Method');
@@ -164,16 +164,14 @@ console.log('original array = ' + originalArray);
 originalArray.splice(2, 1);
 console.log('spliced array = ' + originalArray);
 
-
-const nums = [0,1,2,3,4,5,6,7,8,9];
+const nums = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 const removeNums = (nums) => {
-  nums.splice(3,5); //we start at index 3 and remove 5 elements
-}
+  nums.splice(3, 5); //we start at index 3 and remove 5 elements
+};
 console.log(nums);
 removeNums(nums);
 console.log(nums);
-
 
 // reduce Method
 console.log('reduce Method');
@@ -186,29 +184,22 @@ console.log('array = ' + someArray);
 // ie, preValue => someArray[0] - first element
 // ie, curValue => someArray[1] - second element
 
-const reducedValue = someArray.reduce(
-  (preValue, curValue) => {
-    return preValue + curValue
-  }
-);
-
+const reducedValue = someArray.reduce((preValue, curValue) => {
+  return preValue + curValue;
+});
 
 // *With an initial value*
 // an initial value, preValue gets the first element of the array and the curValue becomes the second element,
 // ie, preValue => the initial value - 1000
 // ie, curValue => someArray[0] - first element
-const reducedValue = someArray.reduce(
-  (preValue, curValue) => {
-    return preValue + curValue
-  },
-  1000
-);
+const reducedValue = someArray.reduce((preValue, curValue) => {
+  return preValue + curValue;
+}, 1000);
 
 let sum = 0;
 for (let i = 0; i < someArray.length; i++) {
-   sum = sum + someArray[i];
+  sum = sum + someArray[i];
 }
-
 
 console.log('current  values = ' + curValue);
 console.log('reduced value = ' + reducedValue);

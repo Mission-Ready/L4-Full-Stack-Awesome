@@ -1,5 +1,6 @@
 [
-  { "name": "Sebin", "age": 22 },
+  { "name": "John", "age": 27 },
+  { "name": "Mary", "age": 22 },
   { "name": "Ethan", "age": 17 },
   { "name": "Joe", "age": 53 },
   { "name": "Amelia", "age": 87 },
