@@ -17,6 +17,7 @@ An overview - https://www.freecodecamp.org/news/react-beginners-guide/
   - [2.3. Introducing React Hooks](#23-introducing-react-hooks)
   - [2.4. React Hooks Tutorial](#24-react-hooks-tutorial)
 - [3. React router](#3-react-router)
+  - [3.0 React Router: A Complete Guide to React Router:](#30-react-router-a-complete-guide-to-react-router)
   - [3.1. React Router Tutorial | React For Beginners](#31-react-router-tutorial--react-for-beginners)
   - [3.2. React Router Crash Course](#32-react-router-crash-course)
   - [3.3. React Router Tutorial - Setup in 5 Minutes](#33-react-router-tutorial---setup-in-5-minutes)
@@ -83,6 +84,9 @@ An overview - https://www.freecodecamp.org/news/react-beginners-guide/
   <img src="https://img.youtube.com/vi/f687hBjwFcM/maxresdefault.jpg" width=480>
 
 ## 3. React router
+
+### 3.0 React Router: A Complete Guide to React Router: 
+- https://ui.dev/react-router-tutorial 📙
 
 ### 3.1. React Router Tutorial | React For Beginners
 - https://www.youtube.com/watch?v=Law7wfdg_ls&ab_channel=DevEd 33:09
