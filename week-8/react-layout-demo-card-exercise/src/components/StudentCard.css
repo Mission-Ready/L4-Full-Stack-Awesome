@@ -1,0 +1,24 @@
+.studentCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  height: 300px;
+  border: 1px solid rgb(138, 137, 137);
+}
+
+.studentCard img {
+  width: 80%;
+  border-radius: 50% 50%;
+}
+
+.studentCard h2 {
+  color: orange;
+}
+
+.studentCard h4 {
+  color: #53536e;
+  margin: 0;
+}

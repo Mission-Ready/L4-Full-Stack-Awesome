@@ -1,0 +1,7 @@
+.cardLayout {
+  display: flex;
+  justify-content: center;
+  column-gap: 5vw;
+  row-gap: 5vh;
+  flex-wrap: wrap;
+}
