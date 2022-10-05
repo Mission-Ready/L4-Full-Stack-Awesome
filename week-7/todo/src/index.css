@@ -8,6 +8,10 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  /* https://github.com/facebook/create-react-app/issues/9937 */
+  /* background-image: url('~/public/doodle.jpg');
+  background-repeat: repeat;
+  background-size: contain; */
 }
 
 .container {
@@ -16,6 +20,7 @@ body {
   overflow: auto;
   min-height: 300px;
   border: 1px solid steelblue;
+  background: white;
   padding: 30px;
   border-radius: 5px;
 }

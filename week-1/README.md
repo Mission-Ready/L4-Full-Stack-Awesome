@@ -79,6 +79,9 @@
 ### CSS Flexbox in 20 minutes
 - https://youtu.be/JJSoEo8JSnc 00:20:00
 
+### Flexbox Navbar Tutorial | Only HTML & CSS  
+- https://youtu.be/W-nIX17Gg-Q 00:08:56
+
 # Challenges
 - CSS Diners game - Learn about CSS Specificity - https://flukeout.github.io/
 - Flexbox Frog - Learn about the flexbox value - https://flexboxfroggy.com/
