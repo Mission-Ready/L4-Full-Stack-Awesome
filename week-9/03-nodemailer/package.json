@@ -1,0 +1,14 @@
+{
+  "name": "hello-emails",
+  "version": "1.0.0",
+  "description": "This prokect sends an email to someone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sebin Benjamin",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.8.0"
+  }
+}
