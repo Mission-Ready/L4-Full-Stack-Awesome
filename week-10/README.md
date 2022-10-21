@@ -17,6 +17,7 @@
   - [4.1. How To Use MySQL with NodeJS](#41-how-to-use-mysql-with-nodejs)
   - [4.2. How To Use MySQL with NodeJS](#42-how-to-use-mysql-with-nodejs)
   - [4.3. How to Setup MySQL in NodeJS / Express - Tutorial](#43-how-to-setup-mysql-in-nodejs--express---tutorial)
+  - [4.4 MySQL Style guide - Mozilla](#44-mysql-style-guide---mozilla)
 
 
 
@@ -106,3 +107,6 @@
 - https://www.youtube.com/watch?v=W8jySpfRUDY&ab_channel=PedroTech 14:32
 
   <img src="https://img.youtube.com/vi/W8jySpfRUDY/maxresdefault.jpg" width=480>
+
+### 4.4 MySQL Style guide - Mozilla
+- https://github.com/mozilla/data-docs/blob/d412b4f9656dfe2dcb6f770bf374dfa1218ab458/src/concepts/sql_style.md 📙  

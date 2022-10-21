@@ -1,0 +1,23 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input, button {
+  width: 50%;
+  height: 2em;
+  text-align: center;
+  margin: 1vh;
+}
+
+button {
+  background-color: aliceblue;  
+}

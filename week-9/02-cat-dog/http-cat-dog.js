@@ -31,5 +31,5 @@ const server = http.createServer((req, res) => {
 });
 
 // Start the server. listen to requests
-server.listen(5001);
-console.log('Started server on port', 5001);
+server.listen(4000);
+console.log('Started server on port', 4000);

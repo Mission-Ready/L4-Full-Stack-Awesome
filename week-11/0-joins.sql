@@ -23,7 +23,7 @@ WHERE
     city.Name = 'Auckland'
 ;
 
--- Find the Name of th city, the district name and the language spoken in the country where the city is in
+-- Find the Name of the city, the district name and the language spoken in the country where the city is in
 
 SELECT 
     city.Name 'City Name',

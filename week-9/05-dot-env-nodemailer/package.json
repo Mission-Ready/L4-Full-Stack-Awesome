@@ -1,15 +1,15 @@
 {
-  "name": "dot-env-demo",
+  "name": "hello-emails",
   "version": "1.0.0",
-  "description": "",
+  "description": "This prokect sends an email to someone",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Sebin Benjamin",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.0.0"
+    "dotenv": "^16.0.3",
+    "nodemailer": "^6.8.0"
   }
 }

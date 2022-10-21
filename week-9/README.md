@@ -8,6 +8,7 @@
 - [2. ENV Variables](#2-env-variables)
   - [2.1. Learn DOTENV in 6 minutes in 2020](#21-learn-dotenv-in-6-minutes-in-2020)
   - [2.2. Environment Variables in Node.js](#22-environment-variables-in-nodejs)
+  - [2.3 DotEnv](#23-dotenv)
 - [3. File System module](#3-file-system-module)
   - [3.1. Node JS Tutorial for Beginners #9 - Reading & Writing Files (fs)](#31-node-js-tutorial-for-beginners-9---reading--writing-files-fs)
   - [3.2. fs (File System) Module in Node JS](#32-fs-file-system-module-in-node-js)
@@ -61,6 +62,10 @@
 - https://www.youtube.com/watch?v=HRBNeERE5PU&ab_channel=BenAwad 7:35
 
 	<img src="https://img.youtube.com/vi/HRBNeERE5PU/maxresdefault.jpg" width=480>
+
+### 2.3 DotEnv
+
+- https://www.codementor.io/@parthibakumarmurugesan/what-is-env-how-to-set-up-and-run-a-env-file-in-node-1pnyxw9yxj
 
 ## 3. File System module
 

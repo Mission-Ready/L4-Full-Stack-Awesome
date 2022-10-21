@@ -108,7 +108,7 @@ CREATE TABLE IF NOT EXISTS MHQStudentD (
     LastName 	VARCHAR(10) 	NOT NULL,
     FirstName	VARCHAR(255)
 );
- 
+
 INSERT INTO `mhq`.`MHQStudentD`
 (`LastName`,
 `FirstName`
