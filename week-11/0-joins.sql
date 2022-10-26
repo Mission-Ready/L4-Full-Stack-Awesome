@@ -48,3 +48,8 @@ WHERE
 	countrylanguage.Language = 'English' AND IsOfficial = 'T' 
     AND country.LifeExpectancy > 70
 Order by country.LifeExpectancy DESC;
+
+-- What are the tables that are involved or needs to be joined?
+-- What is the common *column* in those table that I can JOIN ON
+-- What *columns* from each table should be shown (SELECTed) in the final result?
+-- Are there any conditions (WHERE) to filter the result on?

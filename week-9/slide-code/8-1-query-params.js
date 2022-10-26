@@ -15,12 +15,12 @@ const app = express();
  * localhost:3000/teacher?id=52&name=sebin
  *    id=52
  *    name=sebin
- *  const {name, id} = req.query;    
- * 
+ *  const {name, id} = req.query;
+ *
  */
 
-// Query Parameters - localhost:5000/student
-// localhost:5000/student?name=sebin&color=blue
+// Query Parameters (req.query) - localhost:5000/student
+// localhost:4000/student?name=sebin&color=blue
 app.get('/student', (req, res) => {
   console.log('Received a GET request to /student');
   console.log('Got a bunch of query params', req.query);

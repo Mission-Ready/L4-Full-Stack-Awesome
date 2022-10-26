@@ -1,6 +1,4 @@
 const express = require('express');
-
-// Instantiate an application by calling the express() method
 const app = express();
 
 // Global Middleware 1 - executes someCommonTaskToBeExecuted
@@ -15,21 +13,32 @@ app.use((req, res, next) => {
   next();
 });
 
-// listen for GET requests on the / path | route, using the get() method.
+// listen for GET requests on the / path/route, using the get() method.
 app.get('/', (req, res) => {
-  //someCommonTaskToBeExecuted
+  console.log('Hello World');
   res.send('Hello World!');
 });
 
-// Global Middleware 3 - does not get executed !!!
+app.get('/user', (req, res) => {
+  res.send('Hello User!');
+});
+
+app.get('/user/abcd', (req, res) => {
+  res.send('Hello abcd!');
+});
+
+app.get('/car', (req, res) => {
+  res.send('Hello car!');
+});
+
+// Global Middleware 3 - does NOT get executed !!!
 // Needs to be written before any route handling takes place
 app.use((req, res, next) => {
   console.log('Global Middleware 3');
   next();
 });
 
-const hostname = '127.0.0.1';
 const port = 4000;
 app.listen(port, () =>
-  console.log(`Server running at http://${hostname}:${port}/`)
+  console.log(`Server running at http://localhost:${port}/`)
 );
