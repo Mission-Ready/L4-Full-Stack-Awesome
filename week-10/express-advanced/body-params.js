@@ -8,21 +8,28 @@
 
 const express = require('express');
 const cors = require('cors');
+
+const { carRouter } = require('../../week-9/slide-code/11-2-controllers-with-router/modular-routes');
 const app = express();
 
-
+// Unlike query & route params, you need a additional step here to process Body params
 app.use(express.json()); // Middleware added to process the json body params
-app.use(cors())
+app.use(cors()); 
 
+// POST request, instead of GET
 app.post('/student', (req, res) => {
-  console.log('Received a GET request to /student');
+  console.log('Received a POST request to /student');
   console.log(`Got some body params ${JSON.stringify(req.body)}`);
   res.send(`Got some body params ${JSON.stringify(req.body)}`);
 });
 
-const PORT = 5000;
-console.log('Server running at port', PORT);
-app.listen(PORT);
+app.get('/student', (req, res) => {
+  console.log('Received a GET request to /student');
+  res.send('This is a GET response');
+});
+
+console.log('Server running at port', 4000);
+app.listen(4000);
 
 /*
 fetch('localhost:5000/student', {
